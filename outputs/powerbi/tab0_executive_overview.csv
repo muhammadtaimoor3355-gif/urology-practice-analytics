@@ -1,0 +1,16 @@
+kpi,value,source
+Total urologists tracked,"8,940",CMS Physician Billing 2022
+Total urology procedures (US),"45,016,413",CMS Physician Billing 2022
+Total estimated revenue (US),"$1,185,310,294",CMS Physician Billing 2022
+National median revenue/physician,"$89,500",CMS Physician Billing 2022
+States analyzed,56,CMS Physician Billing 2022
+Maryland avg revenue vs national,+45.7%,Script 11 benchmarking
+Maryland revenue rank,#6 of 51 states,Script 11 benchmarking
+#1 urology demand condition,Urinary Tract Infection (27.5%),MEPS H241 2022
+6-month forecast procedures,"19,757,037",Script 13 ARIMA forecast
+6-month forecast revenue,"$550,249,736",Script 13 ARIMA forecast
+Total RED alerts generated,"2,372",Script 12 alert system
+Revenue at risk (productivity),$161.8M,Script 12 alert system
+ROI per new physician hired,"$706,306/yr",Script 14 scenario model
+OR revenue gain (10 slots/wk),"+$1,294,032/yr",Script 14 scenario model
+5% Medicare cut impact,"-$308,403/yr",Script 14 scenario model

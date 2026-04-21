@@ -1,0 +1,44 @@
+table,column,data_type,description
+tab0_executive_overview,kpi,string,KPI name
+tab0_executive_overview,value,string,KPI value (formatted)
+tab0_executive_overview,source,string,Data source / script
+tab1_physician_productivity,provider_npi,string,CMS National Provider Identifier
+tab1_physician_productivity,last_name,string,Physician last name
+tab1_physician_productivity,first_name,string,Physician first name
+tab1_physician_productivity,state,string,2-letter state code
+tab1_physician_productivity,total_procedures,int,Total Medicare procedures billed
+tab1_physician_productivity,estimated_annual_revenue,float,Estimated revenue (procedures × avg payment)
+tab1_physician_productivity,rvu_proxy,float,RVU proxy (services × avg allowed amount)
+tab1_physician_productivity,performance_tier,string,TOP_10 / TOP_25 / ABOVE_MEDIAN / BELOW_MEDIAN / BOTTOM_25
+tab2_billing_analysis,cpt_code,string,CPT / HCPCS procedure code
+tab2_billing_analysis,cpt_description,string,Procedure description
+tab2_billing_analysis,total_services,int,National total services billed
+tab2_billing_analysis,total_revenue,float,Estimated total revenue for this CPT
+tab2_billing_analysis,physician_count,int,Number of physicians billing this code
+tab2_billing_anomalies,z_score,float,Z-score vs peer mean (|z|>2 = anomaly)
+tab2_billing_anomalies,alert_level,string,RED (z>4) or YELLOW (z>2)
+tab3_state_capacity,state,string,2-letter state code
+tab3_state_capacity,urologist_count,int,Unique urologists (NPIs) in state
+tab3_state_capacity,annual_capacity_estimate,int,urologists × 250 days × 20 pts/day
+tab3_state_capacity,capacity_utilization_pct,float,Ambulatory services / capacity × 100
+tab4_state_rankings,state,string,2-letter state code
+tab4_state_rankings,avg_revenue_per_md,float,Average annual revenue per urologist
+tab4_state_rankings,revenue_per_md_rank,int,Rank 1=highest revenue/MD
+tab4_scorecard,metric,string,Scorecard metric name
+tab4_scorecard,value,string,Observed value
+tab4_scorecard,benchmark,string,Comparison benchmark
+tab4_scorecard,status,string,ABOVE / BELOW / INFO / WARNING
+tab5_alerts,alert_type,string,PRODUCTIVITY_WARNING / BILLING_ANOMALY / CAPACITY_CRISIS
+tab5_alerts,alert_level,string,RED or YELLOW
+tab5_alerts,message,string,Human-readable alert description
+tab5_forecast,metric,string,Patient Volume / Revenue / Inpatient Discharges
+tab5_forecast,forecast_month,string,YYYY-MM forecast period
+tab5_forecast,forecast_value,float,"ARIMA(1,1,1) point forecast"
+tab5_forecast,lower_80pct_ci,float,Lower 80% confidence interval
+tab5_forecast,upper_80pct_ci,float,Upper 80% confidence interval
+tab6_scenarios,scenario,string,Scenario name (BASELINE / A / B / C / D)
+tab6_scenarios,physicians,int,Number of physicians in scenario
+tab6_scenarios,total_annual_revenue,float,Projected annual revenue
+tab6_scenarios,vs_baseline_revenue,float,Revenue delta vs baseline
+tab6_scenarios,capacity_utilization_pct,float,Capacity utilization %
+tab6_scenarios,is_baseline,bool,True for the current-state baseline row
