@@ -1,0 +1,9 @@
+metric,value,benchmark,status
+National urologists tracked,"8,940",N/A,INFO
+National median physician revenue/yr,"$89,500",CMS 2022 national median,BENCHMARK
+National median procedures/yr,"1,400",CMS 2022 national median,BENCHMARK
+Maryland avg revenue vs national,+45.7%,"National avg: $132,585",ABOVE
+Total estimated urology revenue (US),"$1,185,310,294",CMS 2022 all urologists,INFO
+Total inpatient urology discharges,"443,697",CMS Inpatient 2022,INFO
+#1 urology demand condition (MEPS),Urinary Tract Infection (27.5%),MEPS 2022 national survey,INFO
+States with capacity >80%,21 of 51,Capacity model estimate,WARNING

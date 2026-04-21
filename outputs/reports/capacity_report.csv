@@ -1,0 +1,13 @@
+condition_label,case_count,pct_of_total,demand_rank,care_setting
+Urinary Tract Infection,742,27.5,1,Ambulatory
+Benign Prostatic Hyperplasia (BPH),335,12.4,2,Ambulatory
+Other Kidney Disorder,257,9.5,3,Ambulatory
+Kidney Stone (Urolithiasis),221,8.2,4,Inpatient/Mixed
+Urinary Incontinence,203,7.5,5,Ambulatory
+Prostate Cancer,193,7.2,6,Inpatient/Mixed
+Bladder Disorder,160,5.9,7,Ambulatory
+Other Urology,147,5.5,8,Ambulatory
+Chronic Kidney Disease,133,4.9,9,Inpatient/Mixed
+Other Prostate Disorder,111,4.1,10,Ambulatory
+Erectile Dysfunction,100,3.7,11,Ambulatory
+Cystitis (Bladder Infection),94,3.5,12,Ambulatory

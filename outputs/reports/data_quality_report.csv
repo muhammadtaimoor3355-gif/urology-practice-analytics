@@ -1,0 +1,6 @@
+dataset,rows_in,rows_out,dropped,issues,timestamp
+physician_billing,162360,162360,0,none,2026-04-19 00:12:45
+inpatient_drg,13983,13044,939,removed 939 non-urology DRG rows,2026-04-19 00:12:45
+meps_conditions,2696,2696,0,none,2026-04-19 00:12:45
+hospital_compare,5426,5426,0,none,2026-04-19 00:12:45
+benchmarks_geo,11726,11726,0,none,2026-04-19 00:12:45
