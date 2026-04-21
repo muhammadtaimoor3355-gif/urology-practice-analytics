@@ -1,0 +1,39 @@
+# ============================================================
+# Johns Hopkins Urology Practice Performance Analytics System
+# requirements.txt — All Python libraries this project needs
+# ============================================================
+# HOW TO INSTALL: Open terminal in VS Code and run:
+#   pip install -r requirements.txt
+# ============================================================
+
+# --- Data Download & HTTP Requests ---
+requests==2.31.0          # Makes API calls to CMS, AHRQ, etc.
+tqdm==4.66.1              # Shows download progress bars
+
+# --- Data Manipulation & Analysis ---
+pandas==2.1.4             # Core data manipulation (like Excel in Python)
+numpy==1.26.3             # Math and numerical operations
+openpyxl==3.1.2           # Read/write Excel files
+
+# --- Statistical Analysis ---
+scipy==1.11.4             # Statistical tests, z-scores for anomaly detection
+statsmodels==0.14.1       # ARIMA time series forecasting
+
+# --- Machine Learning (anomaly detection) ---
+scikit-learn==1.3.2       # Anomaly detection, scaling
+
+# --- Visualization ---
+matplotlib==3.8.2         # Charts and graphs
+seaborn==0.13.1           # Statistical visualizations
+plotly==5.18.0            # Interactive charts
+kaleido==0.2.1            # Saves plotly charts as PNG/PDF
+
+# --- Word Document Generation ---
+python-docx==1.1.0        # Creates the executive memo in .docx format
+
+# --- Color Output in Terminal ---
+colorama==0.4.6           # Makes terminal output color-coded
+
+# --- Utilities ---
+python-dateutil==2.8.2    # Date handling utilities
+chardet==5.2.0            # Detects file encoding (fixes UTF-8 errors)
