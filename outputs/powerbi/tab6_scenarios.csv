@@ -1,0 +1,6 @@
+scenario,physicians,or_slots_per_week,medicare_rate_pct,ambulatory_capacity,or_cases_annual,total_annual_capacity,total_annual_revenue,capacity_utilization_pct,revenue_per_physician,vs_baseline_revenue,vs_baseline_capacity,vs_baseline_util_pts,is_baseline
+BASELINE (current),8,20,100.0,40000,960,40960,6168064.0,28.0,771008.0,0.0,0,0.0,True
+Scenario A — Hire 2 More Physicians,10,20,100.0,50000,960,50960,7063064.0,28.0,706306.0,895000.0,10000,0.0,False
+Scenario B — Add 10 OR Slots/Week,8,30,100.0,40000,1440,41440,7462096.0,28.0,932762.0,1294032.0,480,0.0,False
+Scenario C — Medicare Rate Drops 5%,8,20,95.0,40000,960,40960,5859661.0,28.0,732458.0,-308403.0,0,0.0,False
+Scenario D — All Three Combined,10,30,95.0,50000,1440,51440,7939241.0,28.0,793924.0,1771177.0,10480,0.0,False

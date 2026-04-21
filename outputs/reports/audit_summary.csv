@@ -1,0 +1,26 @@
+category,file,exists,size_kb
+Database,data/processed/master_database.sqlite,True,65044.0
+Reports,outputs/reports/productivity_report.csv,True,2000.0
+Reports,outputs/reports/billing_report.csv,True,110.4
+Reports,outputs/reports/billing_anomalies.csv,True,2616.8
+Reports,outputs/reports/capacity_report.csv,True,0.6
+Reports,outputs/reports/state_capacity.csv,True,2.5
+Reports,outputs/reports/or_utilization_report.csv,True,1.4
+Reports,outputs/reports/los_benchmarks.csv,True,0.3
+Reports,outputs/reports/benchmark_report.csv,True,13.7
+Reports,outputs/reports/state_rankings.csv,True,2.9
+Reports,outputs/reports/performance_scorecard.csv,True,0.6
+Reports,outputs/reports/alerts_report.csv,True,1426.2
+Reports,outputs/reports/forecast_report.csv,True,1.8
+Reports,outputs/reports/scenario_report.csv,True,0.8
+Reports,outputs/reports/executive_memo.txt,True,10.0
+Reports,outputs/reports/executive_memo.md,True,10.0
+Power BI,outputs/powerbi/tab0_executive_overview.csv,True,1.0
+Power BI,outputs/powerbi/tab1_physician_productivity.csv,True,2000.0
+Power BI,outputs/powerbi/tab2_billing_analysis.csv,True,110.4
+Power BI,outputs/powerbi/tab3_state_capacity.csv,True,2.5
+Power BI,outputs/powerbi/tab4_scorecard.csv,True,0.6
+Power BI,outputs/powerbi/tab5_alerts.csv,True,1426.2
+Power BI,outputs/powerbi/tab5_forecast.csv,True,1.8
+Power BI,outputs/powerbi/tab6_scenarios.csv,True,0.8
+Power BI,outputs/powerbi/data_dictionary.csv,True,3.0
