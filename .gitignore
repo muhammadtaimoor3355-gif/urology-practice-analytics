@@ -1,0 +1,81 @@
+# ─── Python ───
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ─── Virtual environments ───
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# ─── Jupyter ───
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ─── IDE / editor ───
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── OS junk ───
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Large regenerable data artifacts ───
+# Every file below is rebuilt end-to-end by `python run_all.py`, which
+# re-downloads source data from the CMS, MEPS, and AHRQ public APIs and
+# rebuilds the processed datasets, the SQLite warehouse, and all report
+# CSVs. They are intentionally kept out of git so the repo stays lean
+# and clones quickly. See README § "Regenerating the data".
+
+# SQLite warehouse + raw archive
+data/processed/*.sqlite
+data/processed/*.db
+data/raw/meps/*.zip
+
+# Large raw + processed CSVs (>250 KB)
+data/processed/physician_clean.csv
+data/processed/inpatient_clean.csv
+data/processed/benchmarks_clean.csv
+data/processed/hospital_clean.csv
+data/processed/meps_clean.csv
+data/raw/cms_physician/cms_urology_2022.csv
+data/raw/hcup/cms_inpatient_urology_2022.csv
+data/raw/benchmarks/cms_geo_urology_2022.csv
+data/raw/cms_hospital/hospital_compare_latest.csv
+data/raw/meps/meps_urology_conditions_2022.csv
+
+# Large output reports (>1 MB) — also rebuilt by the pipeline
+outputs/reports/billing_anomalies.csv
+outputs/reports/productivity_report.csv
+outputs/reports/alerts_report.csv
+outputs/powerbi/tab1_physician_productivity.csv
+outputs/powerbi/tab2_billing_anomalies.csv
+outputs/powerbi/tab5_alerts.csv
+
+# ─── Logs ───
+*.log
+logs/

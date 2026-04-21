@@ -1,0 +1,9 @@
+{
+    "dataset_guid": "46bf50f8-0983-4ca2-b8d5-f2afbbf2e589",
+    "data_year": 2022,
+    "drg_ranges": "651-676, 707-708 + keyword filter",
+    "rows_saved": 13983,
+    "total_rows_scanned": 145742,
+    "download_timestamp": "2026-04-18T23:52:54.971043",
+    "why_not_hcup": "HCUP NIS requires paid registration. This CMS Inpatient dataset is free, API-accessible, and contains the same metrics: discharge volumes, avg LOS, avg charges, avg payments."
+}

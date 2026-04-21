@@ -1,0 +1,9 @@
+{
+    "meps_file": "H241",
+    "data_year": 2022,
+    "source_url": "https://meps.ahrq.gov/data_files/pufs/h241/h241xlsx.zip",
+    "rows_total": 83173,
+    "rows_urology": 2696,
+    "icd10_column_used": "ICD10CDX",
+    "download_timestamp": "2026-04-19T00:00:30.406376"
+}
