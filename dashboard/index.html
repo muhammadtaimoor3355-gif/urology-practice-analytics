@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Urology Analytics Dashboard · Johns Hopkins Portfolio</title>
+<meta name="description" content="Interactive healthcare analytics dashboard built on CMS, HCUP, and MEPS 2022 data. Physician productivity, demand mix, capacity, ARIMA forecasts, and scenario modeling.">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.js" integrity="sha384-iU8HYtnGQ8Cy4zl7gbNMOhsDTTKX02BTXptVP/vqAWIaTfM7isw76iyZCsjL2eVi" crossorigin="anonymous"></script>
+<style>
+:root { color-scheme: light; --jh-blue:#002D72; --jh-blue-2:#0C3B7A; --jh-accent:#68ACE5; --jh-gold:#C5A572; --red:#C8102E; --amber:#F0A202; --green:#2E7D32; --bg:#F7F8FA; --card:#FFFFFF; --border:#E3E6EC; --text:#1A1F2B; --muted:#5A6472; }
+* { box-sizing: border-box; }
+body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; background:var(--bg); color:var(--text); font-size:14px; line-height:1.45; }
+header { background:var(--jh-blue); color:#fff; padding:18px 24px; display:flex; justify-content:space-between; align-items:center; border-bottom:3px solid var(--jh-gold); }
+header h1 { margin:0; font-size:19px; font-weight:600; letter-spacing:-.01em; }
+header .sub { font-size:11px; opacity:.8; margin-top:2px; text-transform:uppercase; letter-spacing:.08em; }
+header .badge { background:rgba(255,255,255,.12); padding:4px 10px; border-radius:12px; font-size:11px; border:1px solid rgba(255,255,255,.2); }
+nav { background:#fff; border-bottom:1px solid var(--border); padding:0 24px; display:flex; gap:2px; overflow-x:auto; position:sticky; top:0; z-index:10; }
+nav button { background:transparent; border:0; padding:14px 18px; font-size:13px; font-weight:500; color:var(--muted); cursor:pointer; border-bottom:3px solid transparent; white-space:nowrap; transition:all .15s; }
+nav button:hover { color:var(--jh-blue); }
+nav button.active { color:var(--jh-blue); border-bottom-color:var(--jh-blue); }
+main { padding:24px; max-width:1400px; margin:0 auto; }
+.tab { display:none; }
+.tab.active { display:block; animation:fade .25s; }
+@keyframes fade { from{opacity:0;transform:translateY(4px)} to{opacity:1;transform:none} }
+.kpi-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(215px,1fr)); gap:12px; margin-bottom:20px; }
+.kpi { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:14px 16px; }
+.kpi .label { font-size:11px; color:var(--muted); text-transform:uppercase; letter-spacing:.06em; margin-bottom:6px; font-weight:500; }
+.kpi .value { font-size:22px; font-weight:700; color:var(--jh-blue); letter-spacing:-.02em; }
+.kpi .sub { font-size:10px; color:var(--muted); margin-top:4px; }
+.kpi.accent .value { color:var(--jh-gold); }
+.kpi.warn .value { color:var(--red); }
+.kpi.good .value { color:var(--green); }
+.card { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:20px; margin-bottom:16px; }
+.card h2 { margin:0 0 4px; font-size:15px; font-weight:600; color:var(--jh-blue); }
+.card .cap { font-size:11px; color:var(--muted); margin-bottom:14px; }
+.grid-2 { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+.grid-3 { display:grid; grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); gap:16px; }
+@media(max-width:900px){.grid-2{grid-template-columns:1fr}}
+.chart-wrap { position:relative; height:320px; }
+.chart-wrap.tall { height:440px; }
+table { width:100%; border-collapse:collapse; font-size:12px; }
+th { text-align:left; padding:8px 10px; background:#F1F3F7; color:var(--jh-blue); font-weight:600; font-size:11px; text-transform:uppercase; letter-spacing:.04em; border-bottom:1px solid var(--border); position:sticky; top:0; }
+td { padding:8px 10px; border-bottom:1px solid #F1F3F7; }
+tr:hover td { background:#FAFBFD; }
+td.num { text-align:right; font-variant-numeric:tabular-nums; }
+.scroll { max-height:420px; overflow:auto; border:1px solid var(--border); border-radius:8px; }
+.status { display:inline-block; padding:2px 8px; border-radius:10px; font-size:10px; font-weight:600; text-transform:uppercase; }
+.status.ABOVE,.status.good { background:#E7F5EA; color:var(--green); }
+.status.WARNING,.status.warn { background:#FEF6E6; color:var(--amber); }
+.status.BENCHMARK { background:#E9EEF8; color:var(--jh-blue); }
+.status.INFO { background:#F1F3F7; color:var(--muted); }
+footer { text-align:center; padding:24px; color:var(--muted); font-size:11px; border-top:1px solid var(--border); margin-top:24px; background:#fff; }
+footer a { color:var(--jh-blue); text-decoration:none; font-weight:500; }
+.pill { display:inline-block; padding:2px 8px; background:#E9EEF8; color:var(--jh-blue); border-radius:10px; font-size:10px; font-weight:600; margin-right:4px; }
+.delta-pos { color:var(--green); font-weight:600; }
+.delta-neg { color:var(--red); font-weight:600; }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>Urology Analytics Dashboard</h1>
+    <div class="sub">Johns Hopkins Hospital &middot; Business Analyst Portfolio</div>
+  </div>
+  <span class="badge">CMS &middot; HCUP &middot; MEPS 2022</span>
+</header>
+<nav>
+  <button class="active" data-tab="exec">Executive</button>
+  <button data-tab="prod">Productivity</button>
+  <button data-tab="demand">Demand Mix</button>
+  <button data-tab="cap">Capacity</button>
+  <button data-tab="fc">Forecast</button>
+  <button data-tab="scen">Scenarios</button>
+</nav>
+<main>
+
+<section class="tab active" id="exec">
+  <div class="kpi-grid">
+    <div class="kpi"><div class="label">Urologists tracked</div><div class="value">8,940</div><div class="sub">CMS Physician Billing 2022</div></div>
+    <div class="kpi"><div class="label">US urology procedures</div><div class="value">45.0M</div><div class="sub">Annual, all states</div></div>
+    <div class="kpi accent"><div class="label">US estimated revenue</div><div class="value">$1.19B</div><div class="sub">Medicare-paid</div></div>
+    <div class="kpi"><div class="label">Median $/physician</div><div class="value">$89,500</div><div class="sub">National median</div></div>
+    <div class="kpi good"><div class="label">MD vs national avg</div><div class="value">+45.7%</div><div class="sub">Rank #6 of 51</div></div>
+    <div class="kpi"><div class="label">6-mo forecast rev</div><div class="value">$550M</div><div class="sub">ARIMA(1,1,1)</div></div>
+    <div class="kpi warn"><div class="label">RED alerts</div><div class="value">2,372</div><div class="sub">$161.8M at risk</div></div>
+    <div class="kpi"><div class="label">Top demand</div><div class="value" style="font-size:16px;">UTI &middot; 27.5%</div><div class="sub">MEPS H241</div></div>
+  </div>
+  <div class="grid-2">
+    <div class="card">
+      <h2>Executive scorecard</h2>
+      <div class="cap">Consolidated KPIs from all 17 pipeline modules</div>
+      <div class="scroll"><table id="scoreTbl"><thead><tr><th>Metric</th><th class="num">Value</th><th>Benchmark</th><th>Status</th></tr></thead><tbody></tbody></table></div>
+    </div>
+    <div class="card">
+      <h2>Pipeline architecture</h2>
+      <div class="cap">18-script Python pipeline &rarr; SQLite warehouse &rarr; Power BI exports</div>
+      <div style="font-size:12px; line-height:1.8;">
+        <div><span class="pill">1</span> Download &middot; CMS, HCUP, MEPS, Hospital Compare APIs</div>
+        <div><span class="pill">2</span> Clean &amp; validate &middot; schema + quality checks</div>
+        <div><span class="pill">3</span> Load &middot; 5 tables into <code>master_database.sqlite</code></div>
+        <div><span class="pill">4</span> Analyze &middot; productivity, billing, capacity, benchmarks</div>
+        <div><span class="pill">5</span> Predict &middot; alert triage, ARIMA forecasts, scenarios</div>
+        <div><span class="pill">6</span> Export &middot; 17 Power BI tabs + executive memo</div>
+      </div>
+      <div style="margin-top:18px; padding:14px; background:#F1F3F7; border-radius:8px; font-size:12px;">
+        <strong style="color:var(--jh-blue);">Data sources</strong><br>
+        CMS Physician Billing &middot; 162K rows &middot; 8,940 urologists<br>
+        CMS Inpatient DRG &middot; 14K rows &middot; 443K discharges<br>
+        MEPS H241 Conditions &middot; 2.7K rows &middot; 2022 survey<br>
+        CMS Hospital Compare &middot; 5.4K facilities<br>
+        CMS Geography Benchmarks &middot; 11.7K rows
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tab" id="prod">
+  <div class="grid-2">
+    <div class="card">
+      <h2>Top 15 states by urologist count</h2>
+      <div class="cap">Total tracked urologists per state (CMS Medicare billing)</div>
+      <div class="chart-wrap tall"><canvas id="chart-prod-count"></canvas></div>
+    </div>
+    <div class="card">
+      <h2>Revenue per physician ranking</h2>
+      <div class="cap">Top 15 states &middot; average Medicare revenue per provider</div>
+      <div class="chart-wrap tall"><canvas id="chart-prod-rev"></canvas></div>
+    </div>
+  </div>
+  <div class="card">
+    <h2>State-level productivity detail</h2>
+    <div class="cap">Physician count, average procedures, average revenue, median RVU proxy</div>
+    <div class="scroll"><table id="prodTbl"><thead><tr><th>State</th><th class="num">Physicians</th><th class="num">Avg procedures</th><th class="num">Avg revenue</th><th class="num">Median RVU</th></tr></thead><tbody></tbody></table></div>
+  </div>
+</section>
+
+<section class="tab" id="demand">
+  <div class="grid-2">
+    <div class="card">
+      <h2>Condition demand mix</h2>
+      <div class="cap">MEPS H241 2022 &middot; national urology condition prevalence</div>
+      <div class="chart-wrap tall"><canvas id="chart-cond"></canvas></div>
+    </div>
+    <div class="card">
+      <h2>Inpatient LOS benchmarks</h2>
+      <div class="cap">Average length of stay by procedure category &middot; HCUP 2022</div>
+      <div class="chart-wrap"><canvas id="chart-los"></canvas></div>
+      <div style="margin-top:16px; padding:12px; background:#F1F3F7; border-radius:8px; font-size:12px;">
+        <strong style="color:var(--jh-blue);">Clinical takeaway</strong><br>
+        UTI dominates outpatient demand (27.5%); BPH and kidney stones drive OR volume. Renal failure cases have the longest LOS (4.8 days) and highest resource intensity.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <h2>All conditions by rank</h2>
+    <div class="cap">13 tracked urology conditions &middot; MEPS 2022</div>
+    <div class="scroll"><table id="condTbl"><thead><tr><th>Rank</th><th>Condition</th><th class="num">Case count</th><th class="num">% of total</th><th>Setting</th></tr></thead><tbody></tbody></table></div>
+  </div>
+</section>
+
+<section class="tab" id="cap">
+  <div class="card">
+    <h2>State capacity utilization</h2>
+    <div class="cap">Estimated urologist capacity vs actual service volume &middot; red &gt; 100% (over-capacity)</div>
+    <div class="chart-wrap tall"><canvas id="chart-cap"></canvas></div>
+  </div>
+  <div class="card">
+    <h2>State capacity detail</h2>
+    <div class="cap">21 of 51 states running over 80% capacity &middot; yellow/red flags below</div>
+    <div class="scroll"><table id="capTbl"><thead><tr><th>State</th><th class="num">Urologists</th><th class="num">Inpatient discharges</th><th class="num">Ambulatory services</th><th class="num">Capacity %</th><th class="num">Services / MD</th></tr></thead><tbody></tbody></table></div>
+  </div>
+</section>
+
+<section class="tab" id="fc">
+  <div class="grid-2">
+    <div class="card">
+      <h2>Patient volume &middot; 6-month ARIMA</h2>
+      <div class="cap">Monthly ambulatory procedures &middot; 80% confidence band</div>
+      <div class="chart-wrap tall"><canvas id="chart-fc-vol"></canvas></div>
+    </div>
+    <div class="card">
+      <h2>Revenue &middot; 6-month ARIMA</h2>
+      <div class="cap">Monthly Medicare revenue &middot; 80% confidence band</div>
+      <div class="chart-wrap tall"><canvas id="chart-fc-rev"></canvas></div>
+    </div>
+  </div>
+  <div class="card">
+    <h2>Inpatient discharges &middot; 6-month ARIMA</h2>
+    <div class="cap">Monthly projected inpatient urology discharges</div>
+    <div class="chart-wrap"><canvas id="chart-fc-inp"></canvas></div>
+    <div style="margin-top:16px; padding:12px; background:#F1F3F7; border-radius:8px; font-size:12px;">
+      <strong style="color:var(--jh-blue);">Method</strong> &middot; ARIMA(1,1,1) fit on 2019&ndash;2022 CMS monthly aggregates. Monthly growth rates: volume +0.03%, revenue +0.03%, inpatient +0.02%. Six-month forecast aggregate: <strong>19.8M procedures &middot; $550.2M revenue &middot; 205K discharges</strong>.
+    </div>
+  </div>
+</section>
+
+<section class="tab" id="scen">
+  <div class="card">
+    <h2>What-if scenario modeling</h2>
+    <div class="cap">Revenue impact &middot; baseline vs 4 alternative staffing/OR/reimbursement scenarios</div>
+    <div class="chart-wrap tall"><canvas id="chart-scen"></canvas></div>
+  </div>
+  <div class="grid-2">
+    <div class="card">
+      <h2>Scenario results</h2>
+      <div class="cap">Annual revenue delta vs baseline</div>
+      <div class="scroll"><table id="scenTbl"><thead><tr><th>Scenario</th><th class="num">MDs</th><th class="num">OR slots/wk</th><th class="num">Revenue</th><th class="num">vs Baseline</th></tr></thead><tbody></tbody></table></div>
+    </div>
+    <div class="card">
+      <h2>Strategic takeaways</h2>
+      <div style="font-size:13px; line-height:1.7;">
+        <div style="margin-bottom:10px;"><strong style="color:var(--green);">A &middot; Hire 2 physicians &rarr;</strong> +$895K/yr, +10K capacity slots. Lowest revenue/MD but best access.</div>
+        <div style="margin-bottom:10px;"><strong style="color:var(--green);">B &middot; +10 OR slots/week &rarr;</strong> +$1.29M/yr &middot; <em>highest ROI per $ invested</em>. Structural capital need but biggest return.</div>
+        <div style="margin-bottom:10px;"><strong style="color:var(--red);">C &middot; 5% Medicare cut &rarr;</strong> &minus;$308K/yr headwind if CMS pricing drops.</div>
+        <div><strong style="color:var(--jh-blue);">D &middot; All combined &rarr;</strong> +$1.77M/yr &middot; +10,480 capacity &middot; hedges C.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer>
+  Data: CMS Physician &amp; Supplier Procedure Summary &middot; HCUP Inpatient &middot; MEPS H241 &middot; CMS Hospital Compare (2022) &middot;
+  Source: <a href="https://github.com/muhammadtaimoor3355-gif/urology-practice-analytics" target="_blank">github.com/muhammadtaimoor3355-gif/urology-practice-analytics</a>
+</footer>
+
+<script>
+const scorecardData = [
+  {m:"National urologists tracked",v:"8,940",b:"N/A",s:"INFO"},
+  {m:"National median physician revenue/yr",v:"$89,500",b:"CMS 2022 national median",s:"BENCHMARK"},
+  {m:"National median procedures/yr",v:"1,400",b:"CMS 2022 national median",s:"BENCHMARK"},
+  {m:"Maryland avg revenue vs national",v:"+45.7%",b:"National avg: $132,585",s:"ABOVE"},
+  {m:"Total estimated urology revenue (US)",v:"$1,185,310,294",b:"CMS 2022 all urologists",s:"INFO"},
+  {m:"Total inpatient urology discharges",v:"443,697",b:"CMS Inpatient 2022",s:"INFO"},
+  {m:"#1 urology demand condition (MEPS)",v:"UTI (27.5%)",b:"MEPS 2022 national survey",s:"INFO"},
+  {m:"States with capacity >80%",v:"21 of 51",b:"Capacity model estimate",s:"WARNING"},
+];
+const productivity = [
+  ["CA",795,233067.66,8224.25,178357.32,138114.35],["NY",715,184312.18,5300.81,140095.76,110535.94],
+  ["FL",702,212727.28,6446.68,162104.47,140293.3],["TX",635,181027.86,5868.06,140366.28,131311.42],
+  ["PA",408,127637.34,2109.28,95303.37,100799.87],["OH",346,119007.38,1841.45,88564.34,91254.39],
+  ["IL",330,206339.71,4493.36,158085.07,143254.64],["NJ",299,254759.26,5416.11,193867.41,216972.27],
+  ["NC",295,132368.46,3432.56,98391.70,99992.29],["MI",277,124190.63,1881.14,93303.47,61644.99],
+  ["GA",267,149995.42,8792.84,112056.43,121824.61],["MA",233,203821.10,3727.07,156343.97,144923.21],
+  ["VA",218,198075.64,6098.26,149118.91,181343.97],["TN",199,194105.79,10044.21,146598.64,154095.40],
+  ["AZ",191,149000.00,3555.00,115000.00,125000.00],["MD",180,180000.00,4717.00,193144.00,155000.00],
+];
+const conditions = [
+  ["Urinary Tract Infection",742,27.5,1,"Ambulatory"],["Benign Prostatic Hyperplasia (BPH)",335,12.4,2,"Ambulatory"],
+  ["Other Kidney Disorder",257,9.5,3,"Ambulatory"],["Kidney Stone (Urolithiasis)",221,8.2,4,"Inpatient/Mixed"],
+  ["Urinary Incontinence",203,7.5,5,"Ambulatory"],["Prostate Cancer",193,7.2,6,"Inpatient/Mixed"],
+  ["Bladder Disorder",160,5.9,7,"Ambulatory"],["Other Urology",147,5.5,8,"Ambulatory"],
+  ["Chronic Kidney Disease",133,4.9,9,"Inpatient/Mixed"],["Other Prostate Disorder",111,4.1,10,"Ambulatory"],
+  ["Erectile Dysfunction",100,3.7,11,"Ambulatory"],["Cystitis (Bladder Infection)",94,3.5,12,"Ambulatory"],
+];
+const losData = [
+  ["Kidney/Ureter Procedures",3.2],["Prostatectomy",2.1],["Transurethral Procedures",1.8],
+  ["Urinary Tract Infection",3.5],["Renal Failure (medical)",4.8],["Other Kidney/Urinary",3.1],
+];
+const capacity = [
+  ["CA",795,36473,6538282,3975000,164.5,8224],["NY",715,28374,3790076,3575000,106.0,5301],
+  ["FL",702,43048,4525568,3510000,128.9,6447],["TX",635,32509,3726217,3175000,117.4,5868],
+  ["PA",408,19702,860586,2040000,42.2,2109],["OH",346,16771,637141,1730000,36.8,1841],
+  ["IL",330,22086,1482808,1650000,89.9,4493],["NJ",299,17154,1619417,1495000,108.3,5416],
+  ["NC",295,14367,1012606,1475000,68.7,3433],["MI",277,12605,521076,1385000,37.6,1881],
+  ["GA",267,11891,2347688,1335000,175.9,8793],["MA",233,15460,868408,1165000,74.5,3727],
+  ["VA",218,12882,1329422,1090000,122.0,6098],["TN",199,10692,1998797,995000,200.9,10044],
+  ["AZ",191,9650,679144,955000,71.1,3555],["MD",180,8900,849116,900000,94.3,4717],
+  ["WA",165,8200,550000,825000,66.6,3333],["IN",155,7900,520000,775000,67.0,3355],
+  ["WI",148,7500,485000,740000,65.5,3277],["MO",140,7200,460000,700000,65.7,3286],
+];
+const forecastVol = [
+  ["2023-01",3317511,3095163,3539860],["2023-02",3302186,2980430,3623944],
+  ["2023-03",3292140,2891169,3693112],["2023-04",3285554,2816353,3754756],
+  ["2023-05",3281237,2751206,3811268],["2023-06",3278407,2693043,3863771],
+];
+const forecastRev = [
+  ["2023-01",92087996,85951810,98224183],["2023-02",91848040,82953206,100742874],
+  ["2023-03",91694182,80598028,102790336],["2023-04",91595529,78603208,104587850],
+  ["2023-05",91532274,76850217,106214331],["2023-06",91491715,75273557,107709873],
+];
+const forecastInp = [
+  ["2023-01",34408,32722,36093],["2023-02",34279,31822,36735],
+  ["2023-03",34191,31112,37270],["2023-04",34132,30512,37752],
+  ["2023-05",34091,29987,38196],["2023-06",34064,29517,38611],
+];
+const scenarios = [
+  {name:"Baseline",mds:8,or:20,rev:6168064,delta:0},
+  {name:"A \u00b7 +2 MDs",mds:10,or:20,rev:7063064,delta:895000},
+  {name:"B \u00b7 +10 OR/wk",mds:8,or:30,rev:7462096,delta:1294032},
+  {name:"C \u00b7 CMS \u22125%",mds:8,or:20,rev:5859661,delta:-308403},
+  {name:"D \u00b7 All three",mds:10,or:30,rev:7939241,delta:1771177},
+];
+
+const fmt$ = n => '$' + Math.round(n).toLocaleString();
+const fmtN = n => Math.round(n).toLocaleString();
+const capColor = p => p > 150 ? '#C8102E' : p > 100 ? '#F0A202' : p > 80 ? '#68ACE5' : '#2E7D32';
+
+document.querySelectorAll('nav button').forEach(b => b.addEventListener('click', () => {
+  document.querySelectorAll('nav button').forEach(x => x.classList.toggle('active', x===b));
+  document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.id===b.dataset.tab));
+}));
+
+const scoreBody = document.querySelector('#scoreTbl tbody');
+scorecardData.forEach(r => {
+  scoreBody.insertAdjacentHTML('beforeend',
+    `<tr><td>${r.m}</td><td class="num"><strong>${r.v}</strong></td><td>${r.b}</td><td><span class="status ${r.s}">${r.s}</span></td></tr>`);
+});
+const prodBody = document.querySelector('#prodTbl tbody');
+productivity.forEach(([s,n,rvu,proc,rev,med]) => {
+  prodBody.insertAdjacentHTML('beforeend',
+    `<tr><td><strong>${s}</strong></td><td class="num">${fmtN(n)}</td><td class="num">${fmtN(proc)}</td><td class="num">${fmt$(rev)}</td><td class="num">${fmtN(med)}</td></tr>`);
+});
+const condBody = document.querySelector('#condTbl tbody');
+conditions.forEach(([c,n,pct,rk,set]) => {
+  condBody.insertAdjacentHTML('beforeend',
+    `<tr><td><strong>#${rk}</strong></td><td>${c}</td><td class="num">${fmtN(n)}</td><td class="num">${pct}%</td><td><span class="pill">${set}</span></td></tr>`);
+});
+const capBody = document.querySelector('#capTbl tbody');
+capacity.forEach(([s,md,inp,amb,est,pct,spm]) => {
+  const col = capColor(pct);
+  capBody.insertAdjacentHTML('beforeend',
+    `<tr><td><strong>${s}</strong></td><td class="num">${fmtN(md)}</td><td class="num">${fmtN(inp)}</td><td class="num">${fmtN(amb)}</td><td class="num" style="color:${col};font-weight:700;">${pct.toFixed(1)}%</td><td class="num">${fmtN(spm)}</td></tr>`);
+});
+const scenBody = document.querySelector('#scenTbl tbody');
+scenarios.forEach(s => {
+  const d = s.delta;
+  const cls = d>0?'delta-pos':d<0?'delta-neg':'';
+  const sign = d>0?'+':'';
+  scenBody.insertAdjacentHTML('beforeend',
+    `<tr><td><strong>${s.name}</strong></td><td class="num">${s.mds}</td><td class="num">${s.or}</td><td class="num">${fmt$(s.rev)}</td><td class="num ${cls}">${d===0?'\u2014':sign+fmt$(d)}</td></tr>`);
+});
+
+Chart.defaults.font.family = '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif';
+Chart.defaults.font.size = 11;
+Chart.defaults.color = '#5A6472';
+Chart.defaults.plugins.legend.labels.boxWidth = 12;
+Chart.defaults.plugins.legend.labels.boxHeight = 12;
+const JH = '#002D72', JH2 = '#0C3B7A', ACC = '#68ACE5', GOLD = '#C5A572', RED='#C8102E', GREEN='#2E7D32', AMBER='#F0A202';
+
+new Chart(document.getElementById('chart-prod-count'), {
+  type:'bar',
+  data:{labels:productivity.slice(0,15).map(r=>r[0]),datasets:[{label:'Urologists',data:productivity.slice(0,15).map(r=>r[1]),backgroundColor:JH,borderRadius:4}]},
+  options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{grid:{color:'#EEF1F5'}},y:{grid:{display:false}}}}
+});
+const prodSorted = [...productivity].sort((a,b)=>b[4]-a[4]).slice(0,15);
+new Chart(document.getElementById('chart-prod-rev'), {
+  type:'bar',
+  data:{labels:prodSorted.map(r=>r[0]),datasets:[{label:'Avg revenue / MD',data:prodSorted.map(r=>r[4]),backgroundColor:GOLD,borderRadius:4}]},
+  options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>fmt$(c.parsed.x)}}},scales:{x:{grid:{color:'#EEF1F5'},ticks:{callback:v=>'$'+(v/1000).toFixed(0)+'K'}},y:{grid:{display:false}}}}
+});
+new Chart(document.getElementById('chart-cond'), {
+  type:'doughnut',
+  data:{labels:conditions.map(r=>r[0]),datasets:[{data:conditions.map(r=>r[2]),backgroundColor:[JH,JH2,ACC,GOLD,'#8BB8E8','#A8CCEC','#4A7BC8','#1E4D8B','#5F8DC7','#7FA5D4','#9FBDE0','#BFD5EC'],borderWidth:2,borderColor:'#fff'}]},
+  options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'right',labels:{boxWidth:10,font:{size:10}}},tooltip:{callbacks:{label:c=>c.label+': '+c.parsed+'%'}}}}
+});
+new Chart(document.getElementById('chart-los'), {
+  type:'bar',
+  data:{labels:losData.map(r=>r[0]),datasets:[{label:'Avg LOS (days)',data:losData.map(r=>r[1]),backgroundColor:losData.map(r=>r[1]>4?RED:r[1]>3?AMBER:JH),borderRadius:4}]},
+  options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{grid:{display:false},ticks:{font:{size:10}}},y:{grid:{color:'#EEF1F5'},title:{display:true,text:'Days'}}}}
+});
+new Chart(document.getElementById('chart-cap'), {
+  type:'bar',
+  data:{labels:capacity.slice(0,20).map(r=>r[0]),datasets:[{label:'Capacity utilization %',data:capacity.slice(0,20).map(r=>r[5]),backgroundColor:capacity.slice(0,20).map(r=>capColor(r[5])),borderRadius:4}]},
+  options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.parsed.y.toFixed(1)+'%'}}},scales:{x:{grid:{display:false}},y:{grid:{color:'#EEF1F5'},title:{display:true,text:'Utilization %'}}}}
+});
+function forecastChart(canvasId, data, yFmt, yLabel) {
+  new Chart(document.getElementById(canvasId), {
+    type:'line',
+    data:{labels:data.map(r=>r[0]),datasets:[
+      {label:'Upper 80% CI',data:data.map(r=>r[3]),borderColor:'rgba(104,172,229,.35)',backgroundColor:'rgba(104,172,229,.15)',pointRadius:0,fill:'+1',tension:.3,borderWidth:1},
+      {label:'Forecast',data:data.map(r=>r[1]),borderColor:JH,backgroundColor:JH,pointRadius:4,pointBackgroundColor:JH,tension:.3,borderWidth:2.5,fill:false},
+      {label:'Lower 80% CI',data:data.map(r=>r[2]),borderColor:'rgba(104,172,229,.35)',backgroundColor:'rgba(104,172,229,.35)',pointRadius:0,tension:.3,borderWidth:1,fill:false}
+    ]},
+    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'top',labels:{boxWidth:10}},tooltip:{callbacks:{label:c=>c.dataset.label+': '+yFmt(c.parsed.y)}}},scales:{x:{grid:{display:false}},y:{grid:{color:'#EEF1F5'},title:{display:true,text:yLabel},ticks:{callback:yFmt}}}}
+  });
+}
+forecastChart('chart-fc-vol', forecastVol, v=>(v/1e6).toFixed(2)+'M', 'Procedures (M)');
+forecastChart('chart-fc-rev', forecastRev, v=>'$'+(v/1e6).toFixed(1)+'M', 'Revenue');
+forecastChart('chart-fc-inp', forecastInp, v=>(v/1000).toFixed(1)+'K', 'Discharges');
+new Chart(document.getElementById('chart-scen'), {
+  type:'bar',
+  data:{labels:scenarios.map(s=>s.name),datasets:[
+    {label:'Annual revenue',data:scenarios.map(s=>s.rev),backgroundColor:scenarios.map(s=>s.delta>0?GREEN:s.delta<0?RED:JH),borderRadius:5,yAxisID:'y'},
+    {label:'\u0394 vs baseline',type:'line',data:scenarios.map(s=>s.delta),borderColor:GOLD,backgroundColor:GOLD,tension:0,pointRadius:6,pointHoverRadius:8,borderWidth:2.5,yAxisID:'y1'}
+  ]},
+  options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'top',labels:{boxWidth:10}},tooltip:{callbacks:{label:c=>c.dataset.label+': '+fmt$(c.parsed.y)}}},scales:{x:{grid:{display:false}},y:{position:'left',grid:{color:'#EEF1F5'},ticks:{callback:v=>'$'+(v/1e6).toFixed(1)+'M'},title:{display:true,text:'Annual revenue'}},y1:{position:'right',grid:{display:false},ticks:{callback:v=>(v>=0?'+':'')+'$'+(v/1000).toFixed(0)+'K'},title:{display:true,text:'\u0394 vs baseline'}}}}
+});
+</script>
+</body>
+</html>
