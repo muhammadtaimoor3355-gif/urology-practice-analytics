@@ -1,0 +1,915 @@
+cpt_code,cpt_description,avg_payment,national_avg_payment,payment_vs_national,total_services,total_revenue
+J1071,"Injection, testosterone cypionate, 1 mg",0.0199148801,,,13301170.0,278180.44
+J3145,"Injection, testosterone undecanoate, 1 mg",1.408525106847761,,,4066867.0,5748391.899999999
+99214,"Established patient office or other outpatient visit, 30-39 minutes",87.0451384976624,,,2829906.0,255940963.94
+99213,"Established patient office or other outpatient visit, 20-29 minutes",60.07255137989636,,,2153380.0,135123267.44
+Q9967,"Low osmolar contrast material, 300-399 mg/ml iodine concentration, per ml",0.11520594663208555,,,2111520.0,242855.15
+J0585,"Injection, onabotulinumtoxina, 1 unit",4.890975303669565,,,2094424.0,10278549.51
+81003,Automated urinalysis test,2.186466136044057,,,1830162.0,4005220.08
+J9030,"Bcg live intravesical instillation, 1 mg",2.1952281244130303,,,1569825.4,3447945.36
+51798,Ultrasound measurement of bladder capacity after voiding,7.907969143388311,9.1569718948,-13.6,1440705.0,11572167.51
+51798,Ultrasound measurement of bladder capacity after voiding,7.907969143388311,7.8283693882,1.0,1440705.0,11572167.51
+J0897,"Injection, denosumab, 1 mg",18.333168389664312,,,1266634.0,23223709.23
+36415,Insertion of needle into vein for collection of blood sample,8.020928992145688,,,722515.0,5799516.68
+52000,Diagnostic exam of bladder and urethra using an endoscope,140.96838094313787,102.83775916,37.1,703993.0,103359831.03
+52000,Diagnostic exam of bladder and urethra using an endoscope,140.96838094313787,181.5043381,-22.3,703993.0,103359831.03
+J9155,"Injection, degarelix, 1 mg",3.1626296141354167,,,681192.0,2159497.92
+81002,"Urinalysis, manual test",3.3866652161110937,,,635301.0,2153744.0
+99204,"New patient office or other outpatient visit, 45-59 minutes",113.54571762180926,,,597522.0,69294217.23
+87798,"Detection test by nucleic acid for organism, amplified probe technique",34.27603707679524,,,593844.5,20367243.46
+81001,"Manual urinalysis test with examination using microscope, automated",3.069741773395225,,,424281.0,1310249.63
+84153,"Psa (prostate specific antigen) measurement, total",17.915515644288934,17.791578947,0.7,392203.0,7028399.31
+84153,"Psa (prostate specific antigen) measurement, total",17.915515644288934,18.118801162,-1.1,392203.0,7028399.31
+J9217,"Leuprolide acetate (for depot suspension), 7.5 mg",133.18082828649884,,,390049.0,52007703.95
+81000,"Manual urinalysis test with examination using microscope, non-automated",3.909520528425366,,,300334.0,1177473.75
+99490,"Chronic care management services, first 20 minutes of clinical staff time directed by health care professional, per calendar month",47.5347562140913,,,263722.0,12227150.32
+51741,Electronic assessment of bladder emptying,7.152726353022755,4.3079806322,66.0,250662.0,2142547.91
+51741,Electronic assessment of bladder emptying,7.152726353022755,8.2862244608,-13.7,250662.0,2142547.91
+99203,"New patient office or other outpatient visit, 30-44 minutes",74.21047890042242,,,189618.0,14335595.23
+96372,Injection of drug or substance under skin or into muscle,10.741954443150698,,,184920.0,1970426.66
+J1952,"Leuprolide injectable, camcevi, 1 mg",64.80603414154038,,,180991.0,11763486.69
+99232,"Subsequent hospital care with moderate levelof medical decision making, if using time, at least 35 minutes",62.713665996796216,,,177372.0,11303206.96
+99215,"Established patient office or other outpatient visit, 40-54 minutes",129.67892561912376,,,160599.0,20988541.17
+76872,Ultrasound scan of pelvic region through rectum,72.14358741254273,,,159456.0,12706966.63
+99212,"Established patient office or other outpatient visit, 10-19 minutes",38.49655644559552,,,154954.0,6122629.13
+82570,Creatinine level to test for kidney function or muscle injury,5.049589547051042,5.1181987578,-1.3,148602.0,750265.14
+82570,Creatinine level to test for kidney function or muscle injury,5.049589547051042,5.1051646716,-1.1,148602.0,750265.14
+87481,"Detection test for candida species (yeast), amplified probe technique",34.29879961509214,,,142354.0,4882063.63
+76770,Complete ultrasound scan behind abdominal cavity,71.31213653305846,,,134392.0,9948821.07
+87150,"Identification of organisms by genetic analysis, amplified probe technique",34.30533474805263,,,120959.0,4139339.4800000004
+87086,"Bacterial colony count, urine",7.854693754065843,,,120446.0,948497.3
+96402,Administration of hormonal anti-neoplastic chemotherapy under skin or into muscle,25.7621669713149,,,112867.0,2921037.29
+55700,Biopsy of prostate gland,135.7305185167202,237.02914164,-42.7,110385.0,14931288.76
+55700,Biopsy of prostate gland,135.7305185167202,179.7220915,-24.5,110385.0,14931288.76
+76775,Limited ultrasound scan behind abdominal cavity,40.1397642039175,,,107789.0,4616402.11
+J0696,"Injection, ceftriaxone sodium, per 250 mg",0.39793748101521037,,,107136.0,42691.71
+99222,"Initial hospital care with straightforward or low-level medical decision making, if using time, at least 55 minutes",101.82560188294156,,,105425.0,10817862.82
+51702,Simple insertion of temporary bladder tube,44.65170282282042,19.021340262,134.7,96735.0,4381754.03
+51702,Simple insertion of temporary bladder tube,44.65170282282042,45.237885554,-1.3,96735.0,4381754.03
+74420,Imaging of urinary tract following injection of a contrast agent,19.401701530064404,,,92334.0,1788599.31
+52332,Insertion of stent in ureter using an endoscope,101.33656978765949,168.73857329,-39.9,88786.0,8978970.64
+52332,Insertion of stent in ureter using an endoscope,101.33656978765949,177.07333841,-42.8,88786.0,8978970.64
+87801,"Detection test by nucleic acid for multiple organisms, amplified probe(s) technique",68.44125762160368,,,87336.0,5986639.05
+99231,"Subsequent hospital care with straightforward or low level of medical decision making, per day, if using time, at least 25 minutes",38.948384328778126,,,81568.0,3221426.04
+76857,Limited ultrasound scan of pelvis,36.99118148614313,,,78477.0,3052285.92
+84403,"Testosterone (hormone) level, total",25.12992327521936,,,77926.0,1958437.58
+51700,Simple bladder irrigation and/or instillation,52.83936719719442,20.697463866,155.3,77527.0,3989074.79
+51700,Simple bladder irrigation and/or instillation,52.83936719719442,54.806446642,-3.6,77527.0,3989074.79
+J1644,"Injection, heparin sodium, per 1000 units",0.1773362616118644,,,75249.0,13470.289999999999
+51784,Non-needle measurement and recording of electrical activity of muscles at bladder and bowel openings,24.332177417185246,15.95452803,52.5,73889.0,1896887.28
+51784,Non-needle measurement and recording of electrical activity of muscles at bladder and bowel openings,24.332177417185246,26.719446234,-8.9,73889.0,1896887.28
+A9575,"Injection, gadoterate meglumine, 0.1 ml",0.10792826499666666,,,72328.0,7786.780000000001
+J0775,"Injection, collagenase, clostridium histolyticum, 0.01 mg",50.487303707375,,,68438.0,3473299.23
+74018,"X-ray of abdomen, 1 view",18.02171334508426,,,63971.0,1174804.29
+76856,Complete ultrasound scan of pelvis,80.45296223785408,,,62689.0,5227901.17
+87640,"Detection test by nucleic acid for staphylococcus aureus (bacteria), amplified probe technique",34.30122441056585,,,61274.0,2101225.0100000002
+99211,Office or other outpatient visit for the evaluation and management of established patient that may not require presence of healthcare professional,16.876427966216898,,,61031.0,1038128.69
+51728,Complex measurement of pressure of urine flow in bladder with voiding pressure studies,245.37702181574141,82.217265909,198.4,59599.0,15237519.22
+51728,Complex measurement of pressure of urine flow in bladder with voiding pressure studies,245.37702181574141,272.27057095,-9.9,59599.0,15237519.22
+87088,Bacterial urine culture,7.885283879946725,,,59087.0,465824.58
+52356,Crushing of stone of ureter with insertion of stent using an endoscope,321.64208613924495,477.83681029,-32.7,58451.0,18799686.5
+52356,Crushing of stone of ureter with insertion of stent using an endoscope,321.64208613924495,326.63333099,-1.5,58451.0,18799686.5
+87653,"Detection test by nucleic acid for strep (streptococcus, group b), amplified probe technique",34.28314804438684,,,58240.0,1996214.96
+J3121,"Injection, testosterone enanthate, 1 mg",0.03617332155,,,56779.0,1837.98
+51720,Instillation of anti-cancer drug into bladder,63.66286693238541,26.379128956,141.3,56201.0,3719993.58
+51720,Instillation of anti-cancer drug into bladder,63.66286693238541,66.598729893,-4.4,56201.0,3719993.58
+99223,"Initial hospital care with moderate level of medical decision making, if using time, at least 75 minutes",136.10588845619148,,,52760.0,7252219.81
+Q9958,"High osmolar contrast material, up to 149 mg/ml iodine concentration, per ml",0.05899293058333333,,,50809.0,2984.83
+51797,Insertion of device into abdomen with pressure and urine flow rate study,130.09575870389386,,,50235.0,6532860.55
+52310,"Simple removal of foreign body, stone, or stent in urethra or bladder using an endoscope",205.57244683678803,225.79929856,-9.0,47600.0,9745605.15
+52310,"Simple removal of foreign body, stone, or stent in urethra or bladder using an endoscope",205.57244683678803,246.99277583,-16.8,47600.0,9745605.15
+76942,Ultrasonic guidance for needle placement,34.46319440402155,,,44466.0,1535699.71
+87186,"Evaluation of antimicrobial drug (antibiotic, antifungal, antiviral), microdilution or agar dilution",8.432139466581624,,,43726.0,369088.81
+J1580,"Injection, garamycin, gentamicin, up to 80 mg",2.1189871869405197,,,43327.0,92054.24
+64566,Insertion of lower leg neurostimulator electrode,94.78396617427248,,,43088.0,4212110.95
+52442,"Insertion of implant in urethra within prostate gland using an endoscope, each additional implant",238.9949014099323,39.603998636,503.5,43076.0,11520270.47
+52442,"Insertion of implant in urethra within prostate gland using an endoscope, each additional implant",238.9949014099323,740.50336604,-67.7,43076.0,11520270.47
+84154,"Psa (prostate specific antigen) measurement, free",17.9196478867131,18.131852964,-1.2,41927.0,751917.65
+87500,"Detection test by nucleic acid for vancomycin resistance strep (vre), amplified probe technique",34.30211696433811,,,41826.0,1434353.32
+J9171,"Injection, docetaxel, 1 mg",0.5343787761333333,,,41731.0,22420.08
+J3490,Unclassified drugs,471.3411361913605,,,40518.0,7172965.01
+99426,"Principal care management services for a single high-risk disease, first 30 minutes of clinical staff time directed by health care professional, per calendar month",47.35322204036901,,,40455.0,1877505.43
+99439,"Chronic care management services for two or more chronic conditions, additional 20 minutes of clinical staff time directed by health care professional, per calendar month",36.713979148765105,,,39331.0,1439498.41
+87077,Bacterial culture for aerobic isolates,7.880011440472907,,,38014.0,300053.18
+99205,"New patient office or other outpatient visit, 60-74 minutes",155.54655961490312,,,37200.0,5792874.08
+J7320,"Hyaluronan or derivitive, genvisc 850, for intra-articular injection, 1 mg",5.824035764766666,,,36627.0,197289.49000000002
+87641,"Detection test by nucleic acid for staphylococcus aureus, methicillin resistant (mrsa bacteria), amplified probe technique",34.30966930704386,,,36549.0,1252882.91
+51705,Simple change of bladder tube,69.27452555227642,35.77726345,93.6,36241.0,2537623.65
+51705,Simple change of bladder tube,69.27452555227642,69.683132911,-0.6,36241.0,2537623.65
+99442,"Telephone medical discussion with physician, 11-20 minutes",59.76860624648777,,,33583.0,2048505.07
+80048,"Blood test, basic group of blood chemicals (calcium, total)",8.244190795018296,,,32046.0,264428.13
+51701,Insertion of temporary bladder tube,33.05149855160202,18.879252825,75.1,31675.0,1076886.87
+51701,Insertion of temporary bladder tube,33.05149855160202,33.440878091,-1.2,31675.0,1076886.87
+99233,"Subsequent hospital care with moderate levelof medical decision making, if using time, at least 50 minutes",94.78999594923637,,,31334.0,2994281.04
+52287,Exam with injections of chemical for destruction of bladder using an endoscope,209.68214682043353,240.22826312,-12.7,30843.0,6760567.04
+52287,Exam with injections of chemical for destruction of bladder using an endoscope,209.68214682043353,302.33915948,-30.6,30843.0,6760567.04
+99221,"Initial hospital care with straightforward or low level of medical decision making, per day, if using time, at least 40 minutes",64.92595303177677,,,29440.0,1928020.94
+87651,"Detection test by nucleic acid for strep (streptococcus, group a), amplified probe technique",34.320488023026044,,,29326.0,1005579.5599999999
+85025,"Complete blood cell count (red cells, white blood cell, platelets), automated test and automated differential white blood cell count",7.559248208712575,,,24957.0,188857.13
+J2704,"Injection, propofol, 10 mg",0.08944383675217392,,,24018.0,2163.78
+82565,Blood creatinine level,4.993881667142511,,,22477.0,112106.97
+74176,Ct scan of abdomen and pelvis without contrast,85.11383016697543,,,22359.0,1834198.43
+50590,Shock wave crushing of kidney stones,440.71615237102145,553.04729317,-20.3,22006.0,9680862.63
+50590,Shock wave crushing of kidney stones,440.71615237102145,511.1311186,-13.8,22006.0,9680862.63
+52281,Dilation of urethra using an endoscope,213.25343978866198,232.89590976,-8.4,20717.0,4751030.53
+52281,Dilation of urethra using an endoscope,213.25343978866198,267.00057908,-20.1,20717.0,4751030.53
+87799,"Detection test by nucleic acid for organism, quantification",41.805975157652774,,,20347.0,850871.23
+74178,Ct scan of abdomen and pelvis before and after contrast,198.05202602836727,,,19964.0,3901870.11
+J9201,"Injection, gemcitabine hydrochloride, not otherwise specified, 200 mg",2.7178008233417907,,,18857.5,51117.93
+84270,Sex hormone binding globulin (protein) level,21.122414757875912,,,18649.0,395078.5
+99441,"Telephone medical discussion with physician, 5-10 minutes",35.08669852880164,,,18597.0,673345.21
+84311,Chemical analysis using spectrophotometry (light),7.9007578153,,,18284.0,144612.69
+52601,Removal of prostate gland using an electrocautery knife through urethra with control of bleeding using an endoscope,562.8607906602225,658.74050489,-14.6,17915.0,10085506.01
+52601,Removal of prostate gland using an electrocautery knife through urethra with control of bleeding using an endoscope,562.8607906602225,584.23781818,-3.7,17915.0,10085506.01
+81007,Urinalysis for bacteria,29.22544357775,,,17196.0,503438.46
+88112,"Cell examination of specimen, selective cellular enhancement technique",30.544714896963193,,,16892.0,527307.45
+81015,Urinalysis using microscope,2.96511857785,,,16364.0,48588.43
+J1050,"Injection, medroxyprogesterone acetate, 1 mg",0.160115864775,,,16152.0,2445.38
+51729,Complex measurement of pressure of urine flow in bladder with urethra pressure and voiding pressure studies,276.6629551540546,98.912602766,179.7,16137.0,4647073.55
+51729,Complex measurement of pressure of urine flow in bladder with urethra pressure and voiding pressure studies,276.6629551540546,294.92855999,-6.2,16137.0,4647073.55
+99443,"Telephone medical discussion with physician, 21-30 minutes",87.92432835293104,,,16037.0,1473529.93
+J1306,"Injection, inclisiran, 1 mg",9.3877735645,,,14768.0,138638.64
+Q9966,"Low osmolar contrast material, 200-299 mg/ml iodine concentration, per ml",0.34557054948571425,,,14593.0,4893.14
+51703,Complicated insertion of bladder tube,104.66827716914251,58.885425896,77.7,14466.0,1613009.24
+51703,Complicated insertion of bladder tube,104.66827716914251,118.15917645,-11.4,14466.0,1613009.24
+80053,"Blood test, comprehensive group of blood chemicals",10.288086371849792,,,14227.0,146369.91
+87184,"Evaluation of antimicrobial drug (antibiotic, antifungal, antiviral)",7.3074654037585365,,,14120.0,103261.62
+82670,Measurement of total estradiol (hormone),27.124799675586953,,,13357.0,363007.55
+82247,"Bilirubin level, total",4.900033392416,,,11374.0,55737.6
+J3260,"Injection, tobramycin sulfate, up to 80 mg",1.965613338302098,,,11315.5,22217.0
+55866,Surgical removal of prostate and surrounding lymph nodes using an endoscope,840.3604641180741,883.81021001,-4.9,10982.0,9448128.18
+55866,Surgical removal of prostate and surrounding lymph nodes using an endoscope,840.3604641180741,1129.8290265,-25.6,10982.0,9448128.18
+52224,"Destruction of growth of bladder and urethra using an endoscope, less than 0.5 cm",419.16272282900934,299.81590077,39.8,10572.0,5389811.41
+52224,"Destruction of growth of bladder and urethra using an endoscope, less than 0.5 cm",419.16272282900934,652.68041535,-35.8,10572.0,5389811.41
+55899,Other procedure on male genital system,149.70124590302595,,,10519.0,1798076.49
+J2795,"Injection, ropivacaine hydrochloride, 1 mg",0.0565184692,,,10504.0,593.67
+52441,"Insertion of implant in urethra within prostate gland using an endoscope, 1 implant",415.48120730461756,158.15948168,162.7,10471.0,4318818.99
+52441,"Insertion of implant in urethra within prostate gland using an endoscope, 1 implant",415.48120730461756,1063.2728398,-60.9,10471.0,4318818.99
+82945,Glucose (sugar) level on body fluid,3.8319568627190472,,,10464.0,40119.92
+83069,Urine hemoglobin level,3.851890983966667,,,10459.0,40310.13
+84156,"Total protein level, urine",3.5723073911208334,,,10247.0,36730.88
+82010,"Ketone bodies analysis, quantitative",7.965160215061905,,,10229.0,81540.6
+80076,Liver function blood test panel,7.952616631070589,,,9999.0,79901.67
+11980,Placement of hormone pellet under skin,71.19429381839865,,,9450.0,675746.5
+83002,"Gonadotropin, luteinizing (reproductive hormone) level",18.069296772104167,,,9206.0,166451.63
+87661,"Detection test by nucleic acid for trichomonas vaginalis (genital parasite), amplified probe technique",34.30272850922535,,,8994.0,308700.61
+93976,Ultrasound of abdomen and pelvis artery and vein blood flow,110.13179195517309,,,8858.0,1078087.07
+84580,"Urobilinogen (metabolism substance) level, urine",9.326299305217647,,,8807.0,82179.04
+Q5101,"Injection, filgrastim-sndz, biosimilar, (zarxio), 1 microgram",0.1557340183,,,8760.0,1364.23
+76705,Limited ultrasound scan of abdomen,61.742846251518074,,,8580.0,565807.73
+52005,Insertion of tube into ureter using an endoscope through bladder area,79.71345605377913,137.68980559,-42.1,8575.0,691049.81
+52005,Insertion of tube into ureter using an endoscope through bladder area,79.71345605377913,210.68790838,-62.2,8575.0,691049.81
+83001,"Gonadotropin, follicle stimulating (reproductive hormone) level",18.17622047186111,,,8074.0,146751.19
+84146,Prolactin (milk producing hormone) level,18.879323875774997,,,7919.0,149989.63
+76870,Ultrasound scan of scrotum,71.01099872960715,,,7893.0,596246.85
+83986,Body fluid ph level,3.496486501572727,,,7851.0,27540.72
+G0103,Prostate cancer screening; prostate specific antigen test (psa),18.825073690683723,19.012084388,-1.0,7773.0,146240.87
+52648,Complete laser vaporization of prostate including control of bleeding using an endoscope,554.0967340946667,714.85743238,-22.5,7625.0,4230829.03
+52648,Complete laser vaporization of prostate including control of bleeding using an endoscope,554.0967340946667,1057.5296327,-47.6,7625.0,4230829.03
+84550,"Uric acid level, blood",4.409035018097959,,,7566.0,33462.1
+52649,Complete laser fragmentation of prostate including control of bleeding using an endoscope,638.091609179151,677.18745018,-5.8,7513.0,4795593.29
+52649,Complete laser fragmentation of prostate including control of bleeding using an endoscope,638.091609179151,618.46918919,3.2,7513.0,4795593.29
+38571,Removal of lymph nodes of both sides of pelvis using an endoscope,251.71128108732628,,,7448.0,1907761.57
+84520,"Urea nitrogen level to assess kidney function, quantitative",3.85969372862953,3.9236363636,-1.6,7443.0,28756.440000000002
+84520,"Urea nitrogen level to assess kidney function, quantitative",3.85969372862953,3.8097615021,1.3,7443.0,28756.440000000002
+52235,"Destruction and/or removal of growth of bladder and urethra using an endoscope, 2.0-5.0 cm",214.5349116877561,322.87929855,-33.6,7435.0,1606499.38
+52235,"Destruction and/or removal of growth of bladder and urethra using an endoscope, 2.0-5.0 cm",214.5349116877561,212.92594904,0.8,7435.0,1606499.38
+84443,"Blood test, thyroid stimulating hormone (tsh)",16.35030800723077,,,7302.0,119852.02
+64561,Insertion of sacral nerve neurostimulator electrode array,408.11872213204697,,,7189.0,2675785.9
+80069,Kidney function blood test panel,8.500459772978571,8.1992857143,3.7,7111.0,60473.71
+80069,Kidney function blood test panel,8.500459772978571,8.5446728122,-0.5,7111.0,60473.71
+84439,"Thyroxine (thyroid chemical), free",8.78191456395,,,7105.0,62694.77
+82044,Urine microalbumin (protein) analysis,6.022857114863637,,,7037.0,42681.79
+82306,Vitamin d-3 level,28.92241027625,,,6894.0,199475.09
+51600,Injection procedure for imaging of bladder during voiding,72.43464319043386,28.525,153.9,6758.0,500679.46
+51600,Injection procedure for imaging of bladder during voiding,72.43464319043386,110.69254266,-34.6,6758.0,500679.46
+A9579,"Injection, gadolinium-based magnetic resonance contrast agent, not otherwise specified (nos), per ml",1.2236059282,,,6713.0,8217.82
+84402,"Testosterone (hormone) level, free",24.708328931796295,,,6638.0,164710.62
+87084,Screening test for pathogenic organisms with colony count,26.38755732007143,,,6481.0,171329.72
+P9612,"Catheterization for collection of specimen, single patient, all places of service",7.579145900840496,2.9566666667,156.3,6183.0,47065.03
+P9612,"Catheterization for collection of specimen, single patient, all places of service",7.579145900840496,2.9541644205,156.6,6183.0,47065.03
+76000,"Imaging guidance for procedure, 60 minutes or less",13.689972517264707,,,6146.0,91986.95
+88313,Special stained specimen slides to examine tissue including interpretation and report,35.5561008458,,,6138.0,191878.83
+55876,Placement of device in prostate for radiation therapy,64.02918013070891,50.880930398,25.8,6098.0,375319.76
+55876,Placement of device in prostate for radiation therapy,64.02918013070891,84.05309795,-23.8,6098.0,375319.76
+55874,Injection of biodegradable material next to prostate,1150.80134154587,182.2075226,531.6,6078.0,7309673.21
+55874,Injection of biodegradable material next to prostate,1150.80134154587,2292.791582,-49.8,6078.0,7309673.21
+J9281,"Mitomycin pyelocalyceal instillation, 1 mg",230.24599493,,,5920.0,1363056.29
+83036,Hemoglobin a1c level,9.482705597685,,,5751.0,54635.8
+86316,Analysis for detection of tumor marker,20.224851597500002,,,5733.0,116223.88
+87591,"Detection test by nucleic acid for neisseria gonorrhoeae (gonorrhoeae bacteria), amplified probe technique",34.29183897895,,,5597.0,192022.96
+87491,"Detection test by nucleic acid for chlamydia trachomatis, amplified probe technique",34.2934705735,,,5596.0,192022.1
+A4648,"Tissue marker, implantable, any type, each",193.1186228048125,,,5577.0,1040397.54
+95972,Electronic analysis of implanted neurostimulator generator with complex spinal cord or peripheral nerve stimulator programming,36.234347489894475,,,5527.0,210693.01
+J3301,"Injection, triamcinolone acetonide, not otherwise specified, 10 mg",0.79258178979375,,,5523.0,4465.57
+85027,"Complete blood cell count (red cells, white blood cell, platelets), automated test",6.312823846830357,,,5496.0,34706.74
+93975,Complete ultrasound of abdomen and pelvis artery and vein blood flow,215.4016123480357,,,5391.0,1241099.32
+J3315,"Injection, triptorelin pamoate, 3.75 mg",293.2376202471795,,,5345.0,1564505.38
+87652,"Detection test by nucleic acid for strep (streptococcus, group a), quantification",40.781394512807026,,,5336.0,217621.41
+87563,Detection of mycoplasma genitalium by dna or rna probe,34.30461149853659,,,5312.0,182192.36
+88305,"Pathology examination of tissue using a microscope, intermediate complexity",34.95240160873684,,,5300.0,180319.19
+99202,"New patient office or other outpatient visit, 15-29 minutes",45.99319459006863,,,5283.0,244315.49
+54235,Injection procedure to cause erection,62.29914712082938,,,5180.0,326867.66
+83718,Hdl cholesterol level,8.083279261742858,,,5171.0,41476.17
+99427,"Principal care management services for a single high-risk disease, each additional 30 minutes of clinical staff time directed by health care professional, per calendar month",36.139275222690266,,,5166.0,190513.77
+82465,Cholesterol level,4.2589308786,,,5132.0,21847.29
+85018,"Blood count, hemoglobin",2.30662407395,,,5057.0,11648.1
+99309,"Subsequent nursing facility care with moderate level of medical decision making, per day, if using time, at least 30 minutes",82.60621639749999,,,5013.0,416307.28
+J0690,"Injection, cefazolin sodium, 500 mg",0.5873221749516129,,,4982.0,2894.08
+51736,Simple timed assessment of bladder emptying,7.0369930645322585,4.5363227147,55.1,4943.0,41068.549999999996
+51736,Simple timed assessment of bladder emptying,7.0369930645322585,8.4333516053,-16.6,4943.0,41068.549999999996
+88120,"Cell examination of urine, manual",300.952504591,,,4931.0,1480933.3900000001
+85014,Red blood cell concentration measurement,2.294478535733962,,,4908.0,11287.25
+52204,Biopsy of bladder using an endoscope,125.37799177289388,182.52358696,-31.3,4870.0,614813.09
+52204,Biopsy of bladder using an endoscope,125.37799177289388,281.52371827,-55.5,4870.0,614813.09
+82040,Albumin (protein) level,4.835274820559615,,,4798.0,23149.4
+74455,Review by radiologist of urinary bladder and urethra images with contrast and after passing urine,57.69259693037209,13.823303909,317.4,4742.0,289123.42
+74455,Review by radiologist of urinary bladder and urethra images with contrast and after passing urine,57.69259693037209,80.264506084,-28.1,4742.0,289123.42
+Q9961,"High osmolar contrast material, 250-299 mg/ml iodine concentration, per ml",0.1369540317,,,4740.0,660.97
+G0416,"Surgical pathology, gross and microscopic examinations, for prostate needle biopsy, any method",164.69260723584793,138.81559993,18.6,4728.0,770815.53
+G0416,"Surgical pathology, gross and microscopic examinations, for prostate needle biopsy, any method",164.69260723584793,224.52885502,-26.6,4728.0,770815.53
+J0278,"Injection, amikacin sulfate, 100 mg",0.6927527278138889,,,4722.5,3287.05
+52352,Removal or manipulation of stone in ureter or kidney using an endoscope,167.24686752371537,278.0283281,-39.8,4673.0,766158.64
+52352,Removal or manipulation of stone in ureter or kidney using an endoscope,167.24686752371537,198.45430769,-15.7,4673.0,766158.64
+87482,"Detection test for candida species (yeast), quantification",54.40406969639286,,,4541.0,247557.51
+64590,Insertion of peripheral or gastric neurostimulator generator,78.31234527060559,,,4533.0,350725.6
+76377,3d radiographic procedure with computerized image postprocessing,44.97864968399315,,,4532.0,218463.8
+74019,"X-ray of abdomen, 2 views",22.8616366409125,,,4303.0,101433.42
+J0725,"Injection, chorionic gonadotropin, per 1,000 usp units",16.41455708,,,4301.0,70599.01
+95971,Electronic analysis of implanted neurostimulator generator with simple spinal cord or peripheral nerve stimulator programming,35.436529755676055,,,4255.0,156890.98
+86403,Screening test for presence of antibody,11.296687539,,,4210.0,47528.58
+52234,"Destruction and/or removal of growth of bladder and urethra using an endoscope, 0.5-2.0 cm",183.44807077957628,317.42940379,-42.2,4098.0,748181.22
+52234,"Destruction and/or removal of growth of bladder and urethra using an endoscope, 0.5-2.0 cm",183.44807077957628,185.33131281,-1.0,4098.0,748181.22
+88108,"Cell examination of specimen, concentration technique",42.99206464506452,,,3978.0,185071.13
+88342,"Special stained specimen slides to examine tissue, initial procedure",34.14536186134483,,,3954.0,123519.37
+82043,Urine microalbumin (protein) level,5.615967331814286,,,3906.0,21917.03
+52214,"Destruction of tissue of bladder, urethra, or surrounding glands using an endoscope",312.38261342829367,199.69316635,56.4,3769.0,1630437.05
+52214,"Destruction of tissue of bladder, urethra, or surrounding glands using an endoscope",312.38261342829367,639.1487621,-51.1,3769.0,1630437.05
+G6015,"Intensity modulated treatment delivery, single or multiple fields/arcs,via narrow spatially and temporally modulated beams, binary, dynamic mlc, per treatment session",265.65465777363636,,,3630.0,1009543.37
+99489,"Complex chronic care management services for two or more chronic conditions, each additional 60 minutes of clinical staff time directed by health care professional, per calendar month",57.380721619925,,,3455.0,204225.97
+0421T,Waterjet destruction of prostrate accessed through the urethra,597.3295550479245,639.31865,-6.6,3363.0,2032504.8
+0421T,Waterjet destruction of prostrate accessed through the urethra,597.3295550479245,689.13869565,-13.3,3363.0,2032504.8
+J2001,"Injection, lidocaine hcl for intravenous infusion, 10 mg",0.0199895163,,,3355.0,70.71
+J9280,"Injection, mitomycin, 5 mg",36.799826068625,,,3313.0,147961.96
+A9585,"Injection, gadobutrol, 0.1 ml",0.2626666667,,,3150.0,827.4
+87900,Infectious agent drug susceptibility analysis,124.82878670076921,,,3147.0,383718.95
+87529,"Detection test by nucleic acid for herpes simplex virus, amplified probe technique",34.34455815625926,,,3087.0,105995.26
+57160,Fitting and insertion of vaginal support device,55.44429389412745,,,3079.0,171591.8
+93980,Complete ultrasound of penis artery and vein blood flow,86.6863040402353,,,3038.0,261562.6
+52240,Destruction and/or removal of large growth of bladder using an endoscope,298.13731352161676,409.39561424,-27.2,2941.0,880868.53
+52240,Destruction and/or removal of large growth of bladder using an endoscope,298.13731352161676,293.82705263,1.5,2941.0,880868.53
+J2250,"Injection, midazolam hydrochloride, per 1 mg",0.121501542815,,,2932.7,356.03999999999996
+87511,"Detection test for gardnerella vaginalis (bacteria), amplified probe technique",34.27286081840625,,,2858.0,98091.81999999999
+J1885,"Injection, ketorolac tromethamine, per 15 mg",0.41729350094864864,,,2805.0,1165.0
+99487,"Complex chronic care management services for two or more chronic conditions, first 60 minutes of clinical staff time directed by health care professional, per calendar month",104.96118951405768,,,2726.0,279292.33
+99308,"Subsequent nursing facility care with straightforward level of medical decision making, per day, if using time, at least 15 minutes",59.157729011190476,,,2722.0,165090.23
+52351,"Diagnostic exam of bladder, urethra, and ureter or kidney using an endoscope",210.76372368835618,317.39296395,-33.6,2676.0,554632.19
+52351,"Diagnostic exam of bladder, urethra, and ureter or kidney using an endoscope",210.76372368835618,212.84457471,-1.0,2676.0,554632.19
+82310,"Calcium level, total",5.046261959613513,,,2622.0,13229.06
+51710,Complicated change of bladder tube,106.58205124210417,63.858888221,66.9,2591.0,283009.0
+51710,Complicated change of bladder tube,106.58205124210417,106.30950358,0.3,2591.0,283009.0
+51715,Injection of implant material beneath lining of bladder and/or urethra using an endoscope,170.40921163196876,493.00716878,-65.4,2546.0,426219.03
+51715,Injection of implant material beneath lining of bladder and/or urethra using an endoscope,170.40921163196876,285.30360505,-40.3,2546.0,426219.03
+51792,Assessment of muscle signal of pelvic nerves,186.5556055579,,,2487.0,541234.47
+71046,"X-ray of chest, 2 views",18.725265271409835,,,2486.0,46725.53
+A9577,"Injection, gadobenate dimeglumine (multihance), per ml",1.4177792568857142,,,2451.0,3490.91
+55706,Needle biopsy of prostate gland using image guidance,300.05856457513045,416.09171806,-27.9,2430.0,730863.61
+55706,Needle biopsy of prostate gland using image guidance,300.05856457513045,307.65137466,-2.5,2430.0,730863.61
+53661,Subsequent dilation of urethra in female,53.90781833764706,27.523299748,95.9,2408.0,128716.71
+53661,Subsequent dilation of urethra in female,53.90781833764706,52.796401593,2.1,2408.0,128716.71
+50081,Complex surgical treatment of kidney stone with imaging guidance,857.806124476381,1006.3149936,-14.8,2360.0,2028483.08
+50081,Complex surgical treatment of kidney stone with imaging guidance,857.806124476381,940.02018868,-8.7,2360.0,2028483.08
+51725,Simple measurement of pressure of urine flow in bladder,131.1686314937846,52.702465555,148.9,2270.0,273633.21
+51725,Simple measurement of pressure of urine flow in bladder,131.1686314937846,147.14418301,-10.9,2270.0,273633.21
+87496,"Detection test by nucleic acid for cytomegalovirus (cmv), amplified probe technique",34.303002837771935,,,2235.0,76691.3
+36410,Insertion of needle into vein (3 years or older),12.608707721727272,,,2194.0,29186.5
+96401,Administration of non-hormonal anti-neoplastic chemotherapy under skin or into muscle,55.749899290354165,,,2164.0,121861.16
+99152,"Use of a drug to induce depression of consciousness by physician performing a procedure (5 years or older), initial 15 minutes",23.242377432734482,,,2143.0,52921.159999999996
+53854,Destruction of prostate tissue using radiofrequency induced heated water vapor,967.525079246875,391.72891304,147.0,2139.0,2122278.25
+53854,Destruction of prostate tissue using radiofrequency induced heated water vapor,967.525079246875,1391.0626896,-30.4,2139.0,2122278.25
+52353,Crushing of stone of ureter using an endoscope,271.99248809586777,402.97880616,-32.5,2121.0,576784.29
+52353,Crushing of stone of ureter using an endoscope,271.99248809586777,256.82172249,5.9,2121.0,576784.29
+57288,Creation of sling around urethra in female to control leakage,432.0315530464545,495.4718574,-12.8,2103.0,894069.74
+57288,Creation of sling around urethra in female to control leakage,432.0315530464545,375.79583804,15.0,2103.0,894069.74
+87185,"Detection of antimicrobial drug (antibiotic, antifungal, antiviral)",4.650054765514815,,,2093.0,9732.59
+93005,Routine electrocardiogram (ecg) using at least 12 leads with tracing,4.701974075511764,,,2042.0,9517.43
+99349,"Residence visit for established patient with moderate level of medical decision making, per day, if using time, at least 40 minutes",101.080151532,,,2003.0,203821.5
+J1335,"Injection, ertapenem sodium, 500 mg",10.449167585916,,,1996.0,20873.47
+97112,"Therapy procedure to re-educate brain-to-nerve-to-muscle function, each 15 minutes",19.555808723307692,,,1967.0,39895.65
+J1212,"Injection, dmso, dimethyl sulfoxide, 50%, 50 ml",515.20213689,,,1914.0,986096.89
+G2212,Prolonged office or other outpatient evaluation and management service(s) beyond the maximum required time of the primary procedure which has been selected using total time on the date of the primary service; each additional 15 minutes by the physician or,25.015526661809524,,,1913.0,48598.07
+86386,Protein test for diagnosis and monitoring of bladder cancer,21.326104105590908,21.509553653,-0.9,1903.0,40562.799999999996
+20610,Aspiration and/or injection of fluid from large joint,52.548331903,,,1897.0,102007.39
+A9595,"Piflufolastat f-18, diagnostic, 1 millicurie",498.79964227,,,1886.0,904132.05
+G0180,"Physician or allowed practitioner certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians and",41.14064107978049,,,1882.0,77330.68
+57425,Surgical repair of vaginal defect using an endoscope,730.7847466556989,,,1826.0,1311884.02
+54405,Insertion of multicomponent inflatable penile implant,594.1497045611574,,,1777.0,1075527.1
+97530,Therapy procedure using functional activities,23.271601605166666,,,1751.0,41767.07
+80047,"Blood test, basic group of blood chemicals (calcium, ionized)",13.417165050849999,,,1750.0,23416.87
+82270,Stool analysis for blood to screen for colon tumors,4.289075829381819,,,1710.0,7331.61
+84152,"Psa (prostate specific antigen) measurement, complexed",17.9691261,18.083969869,-0.6,1705.0,30637.36
+52315,"Complicated removal of foreign body, stone, or stent in urethra or bladder using an endoscope",343.89505210625,264.92414201,29.8,1704.0,586354.54
+52315,"Complicated removal of foreign body, stone, or stent in urethra or bladder using an endoscope",343.89505210625,386.4319064,-11.0,1704.0,586354.54
+74170,Ct scan of abdomen before and after contrast,131.19031066588312,,,1672.0,217517.05
+74177,Ct scan of abdomen and pelvis with contrast,150.72671850390668,,,1662.0,250676.1
+97032,"Application of electrical stimulation with therapist present, each 15 minutes",10.455866478635294,,,1648.0,17589.14
+90912,"Biofeedback training for bowel or bladder control, initial 15 minutes",61.7404315055,31.464613368,96.2,1607.0,102638.18
+90912,"Biofeedback training for bowel or bladder control, initial 15 minutes",61.7404315055,60.655159173,1.8,1607.0,102638.18
+77002,Fluoroscopic guidance for needle placement,57.53505010283334,,,1541.0,139495.25
+82627,Dehydroepiandrosterone (dhea-s) hormone level,21.715063042166665,,,1519.0,32968.33
+52001,Irrigation and removal of multiple blood clots from bladder and urethra using an endoscope,220.11866163163933,227.56019133,-3.3,1517.0,358409.63
+52001,Irrigation and removal of multiple blood clots from bladder and urethra using an endoscope,220.11866163163933,322.06891166,-31.7,1517.0,358409.63
+72197,Mri scan of pelvis before and after contrast,186.69737356708333,,,1491.0,257181.13
+91122,Study of rectum sensitivity and function,205.22969456444446,,,1489.0,322152.83
+76100,X-ray of body plane,69.58733562173333,,,1481.0,103015.33
+96365,"Infusion into a vein for therapy, prevention, or diagnosis, 1 hour or less",57.36042833493103,,,1479.0,86149.87
+A4562,"Pessary, non rubber, any type",49.614745900509426,,,1465.0,73548.54
+74430,Review by radiologist of urinary bladder image,22.29626682527586,11.629731942,91.7,1456.0,33447.18
+74430,Review by radiologist of urinary bladder image,22.29626682527586,27.063504168,-17.6,1456.0,33447.18
+82607,Cyanocobalamin (vitamin b-12) level,14.6188368241,,,1456.0,21417.829999999998
+54200,Injection procedure to correct thickened penile tissue,86.04556631447059,,,1449.0,128500.13
+87426,Detection test by immunoassay technique for severe acute respiratory syndrome coronavirus,34.605293118090906,,,1440.0,49783.56
+77014,Ct guidance for insertion of radiation therapy fields,92.16610765977778,,,1432.0,144072.85
+82728,Ferritin (blood protein) level,13.115630229428572,,,1427.0,18954.28
+50543,Partial removal of kidney using an endoscope,1108.556288867191,937.05990041,18.3,1395.0,1571515.43
+50543,Partial removal of kidney using an endoscope,1108.556288867191,1031.1693056,7.5,1395.0,1571515.43
+82746,"Folic acid level, serum",14.340859023999998,,,1395.0,20025.25
+87081,Screening test for pathogenic organisms,6.44477165741875,,,1389.0,9001.32
+87512,"Detection test for gardnerella vaginalis (bacteria), quantification",40.778283339000005,,,1374.0,56024.89
+83735,Magnesium level,6.552257342151516,,,1373.0,9001.01
+84481,"Thyroid hormone, t3 measurement, free",16.465450160400003,,,1370.0,22651.97
+82533,"Cortisol (hormone) measurement, total",15.8422620634,,,1366.0,21728.82
+87532,"Detection test by nucleic acid for herpes virus-6, amplified probe technique",34.31754652708824,,,1356.0,46555.07
+G0452,Molecular pathology procedure; physician interpretation and report,38.36540231958333,,,1336.0,51837.76
+A9576,"Injection, gadoteridol, (prohance multipack), per ml",1.1202140719,,,1333.0,1493.4299999999998
+76873,Ultrasound scan of prostate through rectum,104.16224770843138,58.2457041,78.8,1331.0,139566.94
+76873,Ultrasound scan of prostate through rectum,104.16224770843138,133.47697683,-22.0,1331.0,139566.94
+84100,Phosphate level,4.646635658913334,,,1322.0,6142.96
+11042,"Removal of skin and tissue, 20.0 sq cm or less",63.43432186609091,,,1320.0,83530.8
+84075,"Phosphatase (enzyme) level, alkaline",5.069800750872727,,,1309.0,6630.19
+74021,"X-ray of abdomen, minimum of 3 views",28.10894696327273,,,1288.0,38540.15
+97140,"Therapy procedure using manual technique, each 15 minutes",16.765297959,,,1260.0,21555.24
+93000,Routine electrocardiogram (ecg) using at least 12 leads with interpretation and report,10.436029203148571,,,1249.0,12934.61
+88344,"Special stained specimen slides to examine tissue, each multiplex procedure",98.19197879283871,,,1224.0,106662.09
+84144,Progesterone (reproductive hormone) level,20.1563334035,,,1193.0,24272.93
+52317,"Crushing, fragmenting, and removal of bladder stones, less than 2.5 cm",368.57147663,327.24570138,12.6,1164.0,526418.5499999999
+52317,"Crushing, fragmenting, and removal of bladder stones, less than 2.5 cm",368.57147663,696.40504014,-47.1,1164.0,526418.5499999999
+83003,Human growth hormone level,16.227444513,,,1137.0,18501.52
+G0444,"Annual depression screening, 5 to 15 minutes",17.35436011904762,,,1103.0,19806.28
+87592,"Detection test by nucleic acid for neisseria gonorrhoeae (gonorrhoeae bacteria), quantification",41.86372434018181,,,1099.0,46096.369999999995
+87492,"Detection test by nucleic acid for chlamydia trachomatis, quantification",52.25328445745454,,,1099.0,57537.57
+90913,"Biofeedback training for bowel or bladder control, each additional 15 minutes",25.325591914866667,18.283230148,38.5,1086.0,27763.25
+90913,"Biofeedback training for bowel or bladder control, each additional 15 minutes",25.325591914866667,24.442013555,3.6,1086.0,27763.25
+Q0111,"Wet mounts, including preparations of vaginal, cervical or skin specimens",15.354229475153847,,,1074.0,16749.65
+99153,"Use of a drug to induce depression of consciousness by physician performing a procedure, each additional 15 minutes",7.763855635945455,,,1073.0,8256.92
+50437,Dilation of existing opening into urinary tract and creation of new access into urine collecting system of kidney using imaging guidance,103.07611578465789,184.505,-44.1,1062.0,111755.45
+84460,"Liver enzyme (sgpt), level",5.1876984479,,,1052.0,5449.5
+84450,"Liver enzyme (sgot), level",5.07773467112,,,1050.0,5323.84
+97750,"Test or measurement for functional capacity, each 15 minutes",26.697404725866665,,,1047.0,28406.399999999998
+76998,Ultrasonic guidance during surgery,50.764924145833334,,,1042.0,53050.090000000004
+57150,Irrigation of vagina and/or application of drug to treat infection,42.74181711108333,,,1031.0,47838.9
+99238,"Hospital discharge day management, 30 minutes or less",63.07803925192308,,,1021.0,64572.22
+82150,Amylase (enzyme) level,6.3138690476249995,,,979.0,6192.78
+76700,Complete ultrasound scan of abdomen,97.136596544375,,,973.0,94048.7
+55867,Simple surgical subtotal removal of prostate using laparoscope,770.2417405418333,,,970.0,752271.74
+84155,"Total protein level, blood",3.598,,,969.0,3481.2000000000003
+99304,"Initial nursing facility care with straightforward or low level of medical decision making, per day, if using time, at least 25 minutes",67.97047663416667,,,961.0,67373.53
+A9596,"Gallium ga-68 gozetotide, diagnostic, (illuccix), 1 millicurie",802.8128305342858,,,957.0,779817.09
+87556,"Detection test by nucleic acid for mycobacteria tuberculosis (tb bacteria), amplified probe technique",40.701610706333334,,,956.0,38736.07
+76376,3d radiographic procedure,14.529169945990908,,,950.0,13105.31
+99284,Emergency department visit with moderate level of medical decision making,95.92166594016666,,,936.0,89119.9
+99305,"Initial nursing facility care with moderate level of medical decision making, per day, if using time, at least 35 minutes",111.69228566380951,,,932.0,102672.55
+51990,Suture suspension of urethra to control leakage using an endoscope,270.8209142078293,255.12185149,6.2,926.0,254338.16
+51990,Suture suspension of urethra to control leakage using an endoscope,270.8209142078293,254.86315789,6.3,926.0,254338.16
+55875,Insertion of needle or tube into prostate for radiation therapy,611.2046325688095,824.01153571,-25.8,918.0,560962.89
+55875,Insertion of needle or tube into prostate for radiation therapy,611.2046325688095,595.2228972,2.7,918.0,560962.89
+71260,Ct scan of chest with contrast,47.109942692609756,,,915.0,42392.91
+54450,Repositioning of foreskin including scar tissue removal,43.00179895375,,,913.0,39847.52
+99306,"Initial nursing facility care with high level of medical decision making, per day, if using time, at least 45 minutes",145.32336698,,,903.0,131563.13
+J7050,"Infusion, normal saline solution, 250 cc",0.497042255025,,,896.0,448.46999999999997
+82947,Blood glucose (sugar) level,3.85,,,890.0,3426.5
+83970,Parathormone (parathyroid hormone) level,40.22468789407692,,,856.0,34468.5
+77021,Review by radiologist of mri guidance for needle placement,55.801963075439026,,,832.0,46352.95
+84060,"Phosphatase (enzyme) measurement, acid, total",7.506536021933333,,,832.0,6247.13
+87147,"Identification of organisms by immunologic analysis, other than immunofluorescence method",5.06197017519,,,828.0,4203.93
+86294,"Immunologic analysis for detection of tumor antigen, qualitative or semiquantitative",24.9267234043,,,815.0,20361.26
+64581,Insertion of sacral nerve neurostimulator electrode,506.43069324156863,,,812.0,409829.22
+51610,Injection procedure through bladder and urethra for x-ray imaging,47.369289149710525,38.218195739,23.9,811.0,34690.78
+51610,Injection procedure through bladder and urethra for x-ray imaging,47.369289149710525,77.780731343,-39.1,811.0,34690.78
+95970,"Electronic analysis of implanted brain, spinal cord, or peripheral neurostimulator generator",14.302051696827586,,,806.0,11390.5
+G2012,"Brief communication technology-based service, e.g. virtual check-in, by a physician or other qualified health care professional who can report evaluation and management services, provided to an established patient, not originating from a related e/m servic",10.113236370494738,,,802.0,8176.1
+88341,"Special stained specimen slides to examine tissue, each additional procedure",35.13144759492857,,,798.0,27192.89
+84410,Testosterone level,50.1326734695,,,794.0,39773.3
+80061,"Blood test, lipids (cholesterol and triglycerides)",13.047195715684209,,,771.0,10072.85
+L8606,"Injectable bulking agent, synthetic implant, urinary tract, 1 ml syringe, includes shipping and necessary supplies",199.35317444285715,,,769.0,153644.17
+82977,Glutamyltransferase (liver enzyme) level,7.001827957,,,752.0,5303.71
+74450,Review by radiologist of urinary bladder and urethra images with contrast,27.38985927552941,11.90925144,130.0,751.0,18762.5
+74450,Review by radiologist of urinary bladder and urethra images with contrast,27.38985927552941,53.345775249,-48.7,751.0,18762.5
+74485,Review by radiologist of ureter or urethra image,34.49965393140625,31.763092406,8.6,749.0,26709.71
+74485,Review by radiologist of ureter or urethra image,34.49965393140625,92.349375,-62.6,749.0,26709.71
+82272,"Stool analysis for blood, by peroxidase activity",4.1458761682,,,723.0,2996.92
+82540,Creatine measurement,4.6087824924000005,,,723.0,3392.96
+11045,"Removal of skin and tissue, each additional 20.0 sq cm or less",26.5113310945,,,706.0,17653.510000000002
+99307,"Subsequent nursing facility care with straightforward level of medical decision making, per day, if using time, at least 10 minutes",30.36071123725,,,706.0,23757.579999999998
+J2930,"Injection, methylprednisolone sodium succinate, up to 125 mg",4.31646686915,,,705.0,3031.0600000000004
+50360,Transplantation of donor kidney,1508.569535634,1587.3716033,-5.0,703.0,1154322.68
+87210,Smear for infectious agents,5.6870845481000005,,,699.0,3979.87
+11043,"Removal of muscle and/or tissue, 20.0 sq cm or less",155.7953693575,,,693.0,126931.74
+52344,Repair of stricture of ureter using an endoscope,249.28639186,328.09103589,-24.0,620.0,159852.46
+52344,Repair of stricture of ureter using an endoscope,249.28639186,252.57545455,-1.3,620.0,159852.46
+78815,Nuclear medicine study from skull base to mid-thigh with ct scan,944.3730960627272,,,614.0,578952.46
+99406,"Smoking and tobacco use intensive counseling, 4-10 minutes",14.745447368399999,,,612.0,9183.36
+93922,Ultrasound study of arm and leg arteries,67.3604271295,,,599.0,43984.86
+51726,Complex measurement of pressure of urine flow in bladder,183.0457427157742,59.572268908,207.3,591.0,108307.34
+51726,Complex measurement of pressure of urine flow in bladder,183.0457427157742,213.20685283,-14.1,591.0,108307.34
+53660,Initial dilation of urethra in female,60.638870928562504,27.639,119.4,585.0,35192.54
+53660,Initial dilation of urethra in female,60.638870928562504,54.349016447,11.6,585.0,35192.54
+50545,Removal of kidney and lymph nodes using an endoscope,1028.2026635926666,831.22003463,23.7,580.0,603311.24
+76776,Ultrasound scan of transplanted kidney,95.44516292,28.807442827,231.3,573.0,63903.73
+76776,Ultrasound scan of transplanted kidney,95.44516292,94.50296,1.0,573.0,63903.73
+77300,Calculation of radiation therapy dose,23.3632892242,,,570.0,13317.07
+96377,Application of on-body injector for under skin injection,16.487446809,,,564.0,9298.92
+53850,Destruction of prostate tissue using microwave induced heat,1179.90944768125,260.40181818,353.1,552.0,676898.86
+53850,Destruction of prostate tissue using microwave induced heat,1179.90944768125,1276.7509478,-7.6,552.0,676898.86
+52330,Manipulation of stone in ureter using an endoscope,193.9210589883871,201.73871051,-3.9,543.0,103321.55
+52330,Manipulation of stone in ureter using an endoscope,193.9210589883871,532.75844828,-63.6,543.0,103321.55
+99421,"Online digital evaluation and management service for an established patient for up to 7 days, total time 5-10 minutes",11.180439132305263,,,537.0,6274.07
+76965,Ultrasonic guidance for administration of radiation therapy,56.363846478166664,,,535.0,29611.8
+53445,Insertion of inflatable urethra or bladder neck sphincter,531.7782451491936,976.7932784,-45.6,532.0,290305.95
+53445,Insertion of inflatable urethra or bladder neck sphincter,531.7782451491936,477.88878378,11.3,532.0,290305.95
+J7321,"Hyaluronan or derivative, hyalgan, supartz or visco-3, for intra-articular injection, per dose",59.329972858,,,529.0,30996.870000000003
+88121,"Cell examination of urine, computer-assisted",132.80160837541666,,,526.0,53827.18
+50323,Preparation of donor kidney for transplantation,68.25771382920833,83.708825481,-18.5,525.0,39702.51
+50323,Preparation of donor kidney for transplantation,68.25771382920833,107.17666667,-36.3,525.0,39702.51
+83615,Lactate dehydrogenase (enzyme) level,5.8832200292416665,,,513.0,3023.18
+86684,Analysis for antibody to haemophilus influenza (respiratory bacteria),15.4640650405,,,508.0,7870.4
+57250,Repair of herniated rectum into vaginal wall,301.2848913061111,,,505.0,137194.66
+71250,Ct scan of chest without contrast,46.35006016260869,,,490.0,21686.6
+93040,Electrocardiogram (ecg) 1 to 3 leads with review by physician,10.5341509486,,,477.0,4851.7699999999995
+J9202,"Goserelin acetate implant, per 3.6 mg",439.1477926925,,,469.0,205175.1
+J3010,"Injection, fentanyl citrate, 0.1 mg",0.697412319425,,,468.0,321.19
+52260,Dilation of bladder using an endoscope under general or spinal anesthesia,146.812539935,245.55855364,-40.2,461.0,68225.52
+52260,Dilation of bladder using an endoscope under general or spinal anesthesia,146.812539935,160.74551515,-8.7,461.0,68225.52
+99291,"Critical care, first 30-74 minutes",172.37297955,,,456.0,78185.66
+87071,Bacterial culture and colony count,9.69,,,452.0,4379.88
+97110,"Therapy procedure using exercise to develop strength, endurance, range of motion, and flexibility, each 15 minutes",17.5478576758,,,450.0,7857.88
+57282,Repair of pelvic ligaments through vagina,386.9395185739286,,,446.0,170867.0
+51999,Other procedure on bladder using an endoscope,1371.8869656453846,997.94418667,37.5,434.0,611159.88
+52354,Biopsy and/or destruction of growth of ureter or kidney using an endoscope,339.0193909489474,455.61056473,-25.6,428.0,144243.24
+52354,Biopsy and/or destruction of growth of ureter or kidney using an endoscope,339.0193909489474,328.16236515,3.3,428.0,144243.24
+85730,"Coagulation assessment blood test, plasma or whole blood",5.880865384615385,,,426.0,2505.34
+80305,"Testing for presence of drug, read by direct observation",12.21094992175,,,423.0,5160.82
+J1100,"Injection, dexamethasone sodium phosphate, 1 mg",0.09796431276666667,,,419.0,41.0
+85610,"Blood test, clotting time",4.193931623930769,,,411.0,1723.36
+82626,Dehydroepiandrosterone (dhea) hormone level,24.702800983,,,407.0,10054.04
+G2010,"Remote evaluation of recorded video and/or images submitted by an established patient (e.g., store and forward), including interpretation with follow-up with the patient within 24 business hours, not originating from a related e/m service provided within t",9.6371284635,,,397.0,3825.94
+J0744,"Injection, ciprofloxacin for intravenous infusion, 200 mg",1.1110789831,,,397.0,438.33
+77080,"Dxa bone density measurement of hip, pelvis, spine",31.699645931124998,,,391.0,13563.67
+57260,"Plastic repair of vagina and tissue separating vagina, rectum, and bladder",501.3029975531818,417.79900206,20.0,391.0,193340.63
+57260,"Plastic repair of vagina and tissue separating vagina, rectum, and bladder",501.3029975531818,435.63315789,15.1,391.0,193340.63
+J1955,"Injection, levocarnitine, per 1 gm",19.78375,,,384.0,7596.96
+51595,Removal of bladder and lymph nodes on both sides of pelvis with transplantation of ureters to small or large bowel with creation of urinary opening,1684.5132896256002,1450.5628681,16.1,381.0,643047.43
+50432,Placement of tube of kidney using imaging guidance with review by radiologist,76.20719295905263,164.30543285,-53.6,374.0,28361.899999999998
+50432,Placement of tube of kidney using imaging guidance with review by radiologist,76.20719295905263,517.28427711,-85.3,374.0,28361.899999999998
+57267,Insertion of artificial material for pelvic floor defect,197.92161532,,,365.0,72497.4
+51102,Aspiration of bladder with insertion of bladder tube to skin,78.25192613627273,118.26039373,-33.8,365.0,27493.84
+51102,Aspiration of bladder with insertion of bladder tube to skin,78.25192613627273,173.93600509,-55.0,365.0,27493.84
+12001,"Simple repair of surface wound of scalp, neck, underarms, trunk, arms, or legs, 2.5 cm or less",75.191405858,,,358.0,29401.71
+77334,Design and construction of complex radiation treatment device,55.882909266000006,,,358.0,19208.96
+52318,"Crushing, fragmenting, and removal of bladder stones, more than 2.5 cm",315.60344221956524,409.65794944,-23.0,357.0,109204.15
+52318,"Crushing, fragmenting, and removal of bladder stones, more than 2.5 cm",315.60344221956524,344.9701005,-8.5,357.0,109204.15
+81514,Measurement of dna of bacteria in vaginal fluid specimen,257.73,,,357.0,92009.61
+52276,Incision of urethra using an endoscope,183.71512852857143,258.63757202,-29.0,355.0,64587.43
+52276,Incision of urethra using an endoscope,183.71512852857143,156.40572193,17.5,355.0,64587.43
+72195,Mri scan of pelvis without contrast,84.68011389244445,,,354.0,31907.309999999998
+99283,Emergency department visit with low level of medical decision making,60.57037489099999,,,354.0,21530.16
+77336,Continuing radiation therapy consultation per week,60.69344537814286,,,351.0,21072.48
+52285,Exam of bladder and urethra for treatment of female urethral syndrome using an endoscope,213.76483107153334,131.44654882,62.6,351.0,77249.12
+52285,Exam of bladder and urethra for treatment of female urethral syndrome using an endoscope,213.76483107153334,266.03654077,-19.6,351.0,77249.12
+11046,"Removal of muscle and/or tissue, each additional 20.0 sq cm or less",59.868435796499995,,,349.0,20893.6
+J2760,"Injection, phentolamine mesylate, up to 5 mg",227.74846955,,,346.0,85660.91
+50684,Injection of ureter for imaging,26.414480037300002,23.755485075,11.2,344.0,9035.06
+50684,Injection of ureter for imaging,26.414480037300002,71.71925,-63.2,344.0,9035.06
+96374,Injection of drug or substance into vein,31.034464818846153,,,338.0,10504.62
+87635,Amplifed dna or rna probe detection of severe acute respiratory syndrome coronavirus 2 (covid-19) antigen,49.193920746,,,333.0,16441.56
+57240,Repair of bladder hernia into vaginal wall,291.01246576013045,314.89822394,-7.6,330.0,97540.2
+57240,Repair of bladder hernia into vaginal wall,291.01246576013045,278.51104938,4.5,330.0,97540.2
+76882,Limited ultrasound scan of joint or other extremity structure except blood vessels,30.07279382,,,324.0,10521.97
+53899,Other procedure on urinary system,198.64799411153334,,,322.0,71935.61
+55880,"High-intensity ultrasound destruction of cancerous tissue in prostate gland, accessed through rectum using ultrasound guidance",777.1549812426316,806.34483491,-3.6,319.0,245793.85
+55880,"High-intensity ultrasound destruction of cancerous tissue in prostate gland, accessed through rectum using ultrasound guidance",777.1549812426316,790.8478125,-1.7,319.0,245793.85
+99457,"Management using the results of remote vital sign monitoring per calendar month, first 20 minutes",31.56197121375,,,318.0,10925.119999999999
+97597,"Removal of tissue from wound, 20.0 sq cm or less",50.672854738,,,318.0,9319.11
+52341,Dilation of bladder and urethra using an endoscope,162.27181744285713,247.71948925,-34.5,308.0,49651.45
+52341,Dilation of bladder and urethra using an endoscope,162.27181744285713,181.13183673,-10.4,308.0,49651.45
+J3420,"Injection, vitamin b-12 cyanocobalamin, up to 1000 mcg",1.2597720797666667,,,301.0,334.57
+J2175,"Injection, meperidine hydrochloride, per 100 mg",6.054725675099999,,,299.0,1808.97
+57420,Exam of vagina and cervix using an endoscope,53.164530131,,,299.0,15138.86
+96413,"Administration of chemotherapy into vein, 1 hour or less",103.63501795777778,,,293.0,30653.2
+53601,Subsequent dilation of stricture of urethra in male by passage of dilator,53.0249749444,37.214542857,42.5,292.0,16691.059999999998
+53601,Subsequent dilation of stricture of urethra in male by passage of dilator,53.0249749444,61.361557971,-13.6,292.0,16691.059999999998
+Q3014,Telehealth originating site facility fee,22.274978145857144,,,286.0,6349.0
+88360,"Microscopic genetic analysis of tumor, manual",51.29259811614286,,,284.0,11066.93
+99458,"Management using the results of remote vital sign monitoring per calendar month, each additional 20 minutes",27.9306456835,,,279.0,7789.780000000001
+95923,Testing of autonomic (sympathetic) nervous system function,111.38077962,,,275.0,29996.3
+51785,Needle measurement and recording of electrical activity of muscles at bladder and bowel openings,164.74156287928574,73.040436626,125.5,274.0,50460.119999999995
+51785,Needle measurement and recording of electrical activity of muscles at bladder and bowel openings,164.74156287928574,350.30129231,-53.0,274.0,50460.119999999995
+55873,Destruction of prostate using imaging guidance,925.6239029214286,1054.8559895,-12.3,273.0,221782.07
+55873,Destruction of prostate using imaging guidance,925.6239029214286,3653.756391,-74.7,273.0,221782.07
+95921,Testing of autonomic nervous system function and heart rate response to deep breathing,77.08622808766667,,,267.0,20286.07
+82157,Androstenedione (hormone) level,28.597,,,263.0,7533.38
+80051,"Blood test panel for electrolytes (sodium potassium, chloride, carbon dioxide)",6.832919913428571,,,263.0,1797.55
+J7040,"Infusion, normal saline solution, sterile (500 ml = 1 unit)",1.0086972511375,,,260.0,263.26
+87045,Stool culture,9.235071428574999,,,258.0,2380.23
+76999,Other ultrasound procedure,153.59321084291665,,,258.0,34455.5
+74400,Imaging of urinary tract with injection of contrast into a vein,57.32013636375,,,257.0,7488.6900000000005
+54360,Surgery to correct abnormal penis angle,281.9061191563637,,,254.0,74738.08
+87102,Fungal culture (mold or yeast),8.237833333333333,,,252.0,2075.5699999999997
+96373,Injection of drug or substance into artery,16.701264123999998,,,251.0,4056.75
+76830,"Ultrasound scan of uterus, ovaries, tubes, cervix and pelvic area through vagina",84.32163896171429,,,251.0,21039.38
+55840,Removal of prostate,526.043640525625,464.12761869,13.3,250.0,137838.88
+58542,"Partial removal of uterus, tubes, and/or ovaries with retention of cervix using an endoscope, 250.0 g or less",345.06065300700004,,,244.0,81515.43
+86800,Thyroglobulin (thyroid protein) antibody measurement,15.439,,,233.0,3621.9
+86376,Microsomal antibodies (autoantibody) measurement,14.173472222000001,,,233.0,3316.35
+82308,Calcitonin (hormone) level,25.938285714499997,,,233.0,6094.43
+84442,Thyroxine binding globulin (thyroid related protein) level,14.3535714285,,,233.0,3364.99
+99344,"Residence visit for new patient with moderate level of medical decision making, per day, if using time, at least 60 minutes",110.62287726150001,,,232.0,24459.739999999998
+50327,Preparation of donor kidney and veins for transplantation,88.98139318846152,75.704949713,17.5,231.0,20044.12
+A9589,"Instillation, hexaminolevulinate hydrochloride, 100 mg",965.2174042942858,,,231.0,223236.75
+84432,Thyroglobulin (thyroid related hormone) level,15.662142857,,,230.0,3614.75
+99310,"Subsequent nursing facility care with high level of medical decision making, per day, if using time, at least 45 minutes",127.07684740999998,,,229.0,28783.15
+87070,"Bacterial culture, any other source except urine, blood or stool, aerobic",8.4875595238,,,227.0,1937.08
+93010,Routine electrocardiogram (ecg) using at least 12 leads with interpretation and report only,5.9054468294,,,227.0,1294.5900000000001
+A4561,"Pessary, rubber, any type",19.91435619225,,,222.0,4416.04
+J1020,"Injection, methylprednisolone acetate, 20 mg",4.1086345979,,,220.0,903.54
+83540,Iron level,6.394418604666666,,,220.0,1401.82
+83550,Iron binding capacity,8.6192857143,,,215.0,1848.76
+G0283,"Electrical stimulation (unattended), to one or more areas for indication(s) other than wound care, as part of a therapy plan of care",9.871176470599998,,,214.0,2187.34
+51040,Incision of bladder with drainage,181.95830933357144,213.4867036,-14.8,213.0,39349.3
+51040,Incision of bladder with drainage,181.95830933357144,213.56717391,-14.8,213.0,39349.3
+99423,"Online digital evaluation and management service for an established patient for up to 7 days, total time 21 or more minutes",35.71436249714286,,,209.0,7606.85
+J0692,"Injection, cefepime hydrochloride, 500 mg",0.9838424133666667,,,209.0,205.63
+87205,Special gram or giemsa stain for microorganism,4.18,,,208.0,869.44
+99497,"Advance care planning, first 30 minutes",74.949086538,,,208.0,15589.41
+U0003,"Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, making use of high throughput technologies as described by cms-2020-01-r",73.5,,,204.0,14994.0
+U0005,"Infectious agent detection by nucleic acid (dna or rna); severe acute respiratory syndrome coronavirus 2 (sars-cov-2) (coronavirus disease [covid-19]), amplified probe technique, cdc or non-cdc, making use of high throughput technologies, completed within",24.5,,,203.0,4973.5
+82435,Blood chloride level,4.51,,,201.0,906.51
+52275,Incision of urethra in male using an endoscope,474.70530319,227.33222917,108.8,199.0,94510.64
+52275,Incision of urethra in male using an endoscope,474.70530319,462.22562327,2.7,199.0,94510.64
+G0506,Comprehensive assessment of and care planning for patients requiring chronic care management services (list separately in addition to primary monthly care management service),46.29,,,196.0,9034.84
+99422,"Online digital evaluation and management service for an established patient for up to 7 days, total time 11-20 minutes",21.944145013555556,,,196.0,4349.1
+J2550,"Injection, promethazine hcl, up to 50 mg",2.4718674075428573,,,195.0,482.9
+45990,Diagnostic exam of anus and rectum under anesthesia,43.43620833336364,,,195.0,8443.720000000001
+57452,Exam of cervix and upper part of vagina using an endoscope,62.404000272000005,,,195.0,12088.630000000001
+J3415,"Injection, pyridoxine hcl, 100 mg",9.26375,,,192.0,1778.64
+96127,Assessment of emotional or behavioral problems,3.4776214953249998,,,191.0,603.88
+99239,"Hospital discharge day management, more than 30 minutes",92.56189968688889,,,190.0,18042.510000000002
+57423,Repair of vaginal defect using an endoscope,352.579413758,,,189.0,65087.14
+64910,Repair of nerve with graft,273.76543265285716,,,185.0,52271.41
+57283,Repair of prolapsing vaginal vault through vagina,320.2652427825,,,184.0,56780.8
+G2252,"Brief communication technology-based service, e.g. virtual check-in, by a physician or other qualified health care professional who can report evaluation and management services, provided to an established patient, not originating from a related e/m servic",22.747738095000003,,,184.0,4370.68
+97162,"Evaluation for physical therapy, typically 30 minutes",76.72618220733334,,,184.0,13981.14
+G0008,Administration of influenza virus vaccine,25.274625850333333,,,183.0,4624.43
+55650,Removal of fluid-producing glands for sperm movement,472.5245646025,,,182.0,87590.12
+G0179,"Physician or allowed practitioner re-certification for medicare-covered home health services under a home health plan of care (patient not present), including contacts with home health agency and review of reports of patient status required by physicians a",33.657666666666664,,,181.0,6355.24
+84560,Uric acid level,4.910833333333334,,,179.0,881.46
+17250,Application of chemical to stop tissue regrowth in wound,44.360109591000004,,,176.0,8535.51
+99407,"Smoking and tobacco use intensive counseling, more than 10 minutes",29.33,,,175.0,5132.75
+76498,Other mri scan,36.922983944833334,,,175.0,6232.9
+50386,Removal of stent in ureter through ureter with review by radiologist,644.9540818963636,115.5325,458.2,174.0,111840.0
+50386,Removal of stent in ureter through ureter with review by radiologist,644.9540818963636,652.0015949,-1.1,174.0,111840.0
+50605,Insertion of stent in ureter,450.9930860728572,366.06423423,23.2,169.0,73761.87
+50605,Insertion of stent in ureter,450.9930860728572,404.57166667,11.5,169.0,73761.87
+72192,Ct scan of pelvis without contrast,79.90042582414286,,,169.0,14146.92
+J1626,"Injection, granisetron hydrochloride, 100 mcg",0.3045625,,,160.0,48.73
+99451,"Telephone, internet, or electronic health record assessment and management with written report by consulting physician, at least 5 minutes",27.0182784159,,,158.0,4275.43
+52265,Dilation of bladder using an endoscope,229.86822959057145,124.74253623,84.3,158.0,36241.07
+52265,Dilation of bladder using an endoscope,229.86822959057145,296.47963374,-22.5,158.0,36241.07
+93981,Ultrasound of penis artery and vein blood flow,57.241166666666665,,,154.0,9180.33
+52346,Repair of stricture in kidney with exam of urinary tract using an endoscope,207.80244135499998,345.7907561,-39.9,154.0,32703.230000000003
+82962,Blood glucose (sugar) test performed by hand-held instrument,3.1937254902,,,153.0,488.64
+49321,Biopsy of abdomen using an endoscope,108.65993961333334,,,152.0,20469.85
+82374,Carbon dioxide (bicarbonate) level,4.78,,,152.0,726.5600000000001
+82340,Urine calcium level,5.8115000000000006,,,151.0,880.5899999999999
+84105,Urine phosphate level,5.56566666666,,,151.0,843.3399999999999
+84133,Urine potassium level,4.562666666659999,,,151.0,691.36
+84300,Urine sodium level,4.87733333334,,,151.0,739.04
+52630,Complete removal of remaining or regrown prostate tissue with control of bleeding using an endoscope,269.406928088,399.59443892,-32.6,147.0,39027.07
+52630,Complete removal of remaining or regrown prostate tissue with control of bleeding using an endoscope,269.406928088,308.50590164,-12.7,147.0,39027.07
+20553,"Injection of trigger points, 3 or more muscles",41.425625,,,144.0,5965.29
+85652,"Red blood cell sedimentation rate, to detect inflammation, automated",2.65,,,144.0,381.59999999999997
+55000,Aspiration of fluid collection in testicle and sperm reservoir,91.07235521783333,,,143.0,12919.62
+51727,Complex measurement of pressure of urine flow in bladder with urethra pressure studies,141.11178335185713,83.328125,69.3,142.0,17061.05
+51727,Complex measurement of pressure of urine flow in bladder with urethra pressure studies,141.11178335185713,200.98960708,-29.8,142.0,17061.05
+J2440,"Injection, papaverine hcl, up to 60 mg",29.3166357894,,,141.0,4168.13
+56820,Exam of external female genitals using an endoscope,89.10524267266668,,,140.0,14059.829999999998
+53454,Adjustment of fluid volume in adjustable balloon continence device beside urethra,22.0252671255,48.05245614,-54.2,140.0,3511.92
+53454,Adjustment of fluid volume in adjustable balloon continence device beside urethra,22.0252671255,30.744135338,-28.4,140.0,3511.92
+99348,"Residence visit for established patient with low level of medical decision making, per day, if using time, at least 30 minutes",64.1073070175,,,137.0,8720.41
+J1720,"Injection, hydrocortisone sodium succinate, up to 100 mg",13.817562211999999,,,136.0,1876.43
+77081,"Dxa bone density measurement of forearm, finger, hand, or foot",32.847703704,,,135.0,4434.44
+J3360,"Injection, diazepam, up to 5 mg",5.566177510599999,,,134.0,763.73
+J1950,"Injection, leuprolide acetate (for depot suspension), per 3.75 mg",18.087651515,,,132.0,2387.57
+J7120,"Ringers lactate infusion, up to 1000 cc",1.9200030467200002,,,131.0,251.86
+50200,Needle biopsy of kidney,85.7112886312,95.798198584,-10.5,130.0,11302.2
+50200,Needle biopsy of kidney,85.7112886312,373.18350877,-77.0,130.0,11302.2
+90662,"Influenza vaccine split virus, preservative free",66.4331666666,,,125.0,8335.36
+20552,"Injection of trigger points, 1-2 muscles",34.3299331984,,,121.0,3914.04
+57065,Extensive destruction of growth of vagina,195.61188034,,,117.0,22886.59
+G0102,Prostate cancer screening; digital rectal examination,11.2309333334,6.3802463054,76.0,117.0,1315.71
+G0102,Prostate cancer screening; digital rectal examination,11.2309333334,12.957593956,-13.3,117.0,1315.71
+98966,"Telephone medical discussion provided by nonphysician professional, 5-10 minutes",10.37739130435,,,116.0,1263.46
+88377,"Microscopic genetic analysis of tissue, manual, each additional multiplex stain procedure",250.8177884625,,,113.0,28377.98
+P9615,Catheterization for collection of specimen(s) (multiple patients),6.64295,2.9505649466,125.1,112.0,897.39
+53855,Insertion of a temporary urethra stent using an endoscope,284.55796230225,169.5125,67.9,112.0,30466.91
+53855,Insertion of a temporary urethra stent using an endoscope,284.55796230225,575.68383178,-50.6,112.0,30466.91
+52320,Removal of stone in ureter using an endoscope,117.5141377466,184.25221053,-36.2,112.0,13539.130000000001
+52320,Removal of stone in ureter using an endoscope,117.5141377466,162.07913043,-27.5,112.0,13539.130000000001
+82948,Blood glucose (sugar) measurement using reagent strip,4.94,,,108.0,533.52
+57265,Repair of bulging of rectum and bladder into vaginal wall,495.4741505425,505.96336672,-2.1,108.0,59692.28
+57265,Repair of bulging of rectum and bladder into vaginal wall,495.4741505425,484.56784314,2.3,108.0,59692.28
+J3480,"Injection, potassium chloride, per 2 meq",0.0941904762,,,105.0,9.89
+93306,"Ultrasound of heart with color-depicted blood flow, rate, direction and valve function",148.37371429,,,105.0,15579.24
+Q2043,"Sipuleucel-t, minimum of 50 million autologous cd54+ cells activated with pap-gm-csf, including leukapheresis and all other preparatory procedures, per infusion",41694.64856533334,,,104.0,4325145.62
+J0698,"Injection, cefotaxime sodium, per gm",4.18541266835,,,104.0,426.77
+53852,Destruction of prostate tissue using radiofrequency induced heat,812.9419230899999,326.12375,149.3,102.0,103036.25
+53852,Destruction of prostate tissue using radiofrequency induced heat,812.9419230899999,1237.9090566,-34.3,102.0,103036.25
+38572,Removal of lymph nodes of both sides of pelvis and abdominal lymph node biopsy using an endoscope,293.80786715,,,101.0,29966.98
+G0328,"Colorectal cancer screening; fecal occult blood test, immunoassay, 1-3 simultaneous",17.69,,,99.0,1751.31
+50592,Destruction of growth of kidney using radiofrequency,272.548896104,267.36779866,1.9,97.0,27135.1
+50592,Destruction of growth of kidney using radiofrequency,272.548896104,2023.0252083,-86.5,97.0,27135.1
+97810,"Acupuncture, initial 15 minutes",32.828041237,,,97.0,3184.32
+97811,"Acupuncture, each additional 15 minutes",24.510103093,,,97.0,2377.48
+64585,Revision of peripheral neurostimulator electrodes,161.11320459400002,,,95.0,15749.68
+53440,Creation of sling around urethra in male to control leakage,479.6969554316667,1372.572617,-65.1,95.0,44266.96
+53440,Creation of sling around urethra in male to control leakage,479.6969554316667,543.34347826,-11.7,95.0,44266.96
+74410,Imaging of urinary tract using infusion technique,88.7794794118,,,95.0,8466.08
+99454,"Remote monitoring of physiologic parameters, initial supply of devices with daily recordings or programmed alerts transmission, each 30 days",36.225,,,95.0,3615.3
+54410,Removal and replacement of multicomponent inflatable penile implant during same surgery,720.8877792133334,,,93.0,67509.3
+49905,Repair of abdomen using abdominal lining graft,276.06257138666666,,,93.0,26166.469999999998
+72196,Mri scan of pelvis with contrast,57.054332907,,,93.0,5404.75
+53600,Initial dilation of urethra in male using dilator,58.487431277666666,39.355077149,48.6,92.0,6002.13
+53600,Initial dilation of urethra in male using dilator,58.487431277666666,63.516056423,-7.9,92.0,6002.13
+50780,Connection of ureter to bladder,941.11152174,731.75864811,28.6,92.0,86582.26
+76881,Complete ultrasound scan of joint,31.013870869,,,88.0,2844.92
+93923,Complete ultrasound study of arm and leg arteries,106.19630952425,,,87.0,9704.44
+74183,Mri scan of abdomen before and after contrast,190.7397826075,,,84.0,14904.92
+15240,"Full thickness skin graft to forehead, cheeks, chin, mouth, neck, underarms, genitals, hands, or feet, 20.0 sq cm or less",347.152857144,,,82.0,28652.510000000002
+71270,Ct scan of chest before and after contrast,61.7736031745,,,79.0,4899.55
+50430,Injection procedure for imaging of kidney and ureter through new skin access using imaging guidance with review by radiologist,63.663580247,92.67103079,-31.3,79.0,5008.99
+50430,Injection procedure for imaging of kidney and ureter through new skin access using imaging guidance with review by radiologist,63.663580247,471.14809524,-86.5,79.0,5008.99
+58262,"Removal of uterus, tubes, and/or ovaries through vagina, 250.0 g or less",709.589866666,,,79.0,55160.27
+99285,Emergency department visit with high level of medical decision making,143.97724828,,,77.0,11056.36
+36247,"Insertion of tube into abdominal, pelvic, or leg artery, initial third order branch",185.11739224,,,77.0,13853.07
+82550,"Creatine kinase (cardiac enzyme) level, total",6.38,,,77.0,491.26
+74425,Review by radiologist of upper urinary tract image,19.96,,,76.0,1516.96
+A4353,"Intermittent urinary catheter, with insertion supplies",7.244666666666666,6.5631014904,10.4,76.0,550.66
+50820,Connection of ureter to small bowel with creation of opening from ureter to skin,1263.250252145,866.7558895,45.7,75.0,98370.84
+74150,Ct scan of abdomen without contrast,60.7649202906,,,75.0,4272.39
+50547,Removal of kidney from living donor using an endoscope,1682.804243425,1259.2490969,33.6,72.0,123799.78
+57285,Repair of vaginal wall defect through vagina,337.6421212133333,,,72.0,25190.53
+78306,Nuclear medicine study of bone and/or joint whole body,163.9078904425,,,72.0,11916.130000000001
+99350,"Residence visit for established patient with high level of medical decision making, per day, if using time, at least 60 minutes",148.17040404,,,71.0,10517.19
+50431,Injection procedure for imaging of kidney and ureter through already existing skin access using imaging guidance with review by radiologist,25.4315,45.414539384,-44.0,70.0,1787.18
+50431,Injection procedure for imaging of kidney and ureter through already existing skin access using imaging guidance with review by radiologist,25.4315,208.15515695,-87.8,70.0,1787.18
+J2370,"Injection, phenylephrine hcl, up to 1 ml",2.30814285715,,,69.0,158.98000000000002
+50230,"Removal of kidney, lymph nodes, and/or blood clot from major vein with partial removal of ureter",829.3841818180001,761.33082012,8.9,66.0,56215.259999999995
+54231,Assessment of erectile dysfunction including injection of drugs into penis,95.9951515135,,,65.0,6383.17
+82248,"Bilirubin level, direct",4.92,,,64.0,314.88
+77012,Review by radiologist of ct guidance for needle placement,60.697282608500004,,,63.0,3885.33
+10006,"Fine needle aspiration biopsy using ultrasound guidance, each additional growth",50.831073684,,,63.0,3202.85
+85007,Microscopic examination for white blood cells with manual cell count,3.72,,,62.0,230.64
+91120,Test for tone and sensation of rectum and anus,308.52009259000005,,,62.0,19665.28
+99195,Drawing of blood for a medical problem,67.002695652,,,61.0,4330.66
+37243,Occlusion of growths or obstructed vessels with review by radiologist,502.33388393,,,60.0,30140.47
+52450,Incision of prostate,275.3117513375,440.08170606,-37.4,60.0,16150.89
+52450,Incision of prostate,275.3117513375,317.10083333,-13.2,60.0,16150.89
+55180,Complicated repair of scrotum,296.4706746033333,,,60.0,18133.25
+96160,Administration and interpretation of patient-focused health risk assessment,2.133220339,,,59.0,125.86
+11981,Insertion of drug delivery implant into tissue,59.7492708335,,,59.0,4764.68
+55150,Removal of diseased or injured scrotum,201.96606944500002,,,58.0,11741.91
+50435,Replacement of kidney drainage tube using imaging guidance with review by radiologist,46.079990503333335,85.579117318,-46.2,58.0,2664.33
+50435,Replacement of kidney drainage tube using imaging guidance with review by radiologist,46.079990503333335,399.6109272,-88.5,58.0,2664.33
+52355,Removal of growth of ureter or kidney using an endoscope,349.1702849,456.38825459,-23.5,57.0,20693.14
+52355,Removal of growth of ureter or kidney using an endoscope,349.1702849,351.87588235,-0.8,57.0,20693.14
+53447,Removal and replacement of inflatable urethra or bladder neck sphincter,611.5635535725,825.83446352,-25.9,57.0,34382.6
+53447,Removal and replacement of inflatable urethra or bladder neck sphincter,611.5635535725,442.11,38.3,57.0,34382.6
+97814,"Acupuncture with electrical stimulation, each additional 15 minutes",31.516964286,,,56.0,1764.95
+97813,"Acupuncture with electrical stimulation, initial 15 minutes",38.883035714,,,56.0,2177.45
+J0290,"Injection, ampicillin sodium, 500 mg",0.6105357143,,,56.0,34.19
+15271,"Application of skin substitute graft to wound of trunk, arms, or legs, 25.0 sq cm or less of wound 100.0 sq cm or less",72.16,,,55.0,3968.8
+98967,"Telephone medical discussion provided by nonphysician professional, 11-20 minutes",19.881818182,,,55.0,1093.5
+77013,Ct guidance for tissue removal,158.435,,,54.0,8673.119999999999
+96375,Injection of additional new drug or substance into vein,14.023518519,,,54.0,757.27
+50080,Simple surgical treatment of kidney stone with imaging guidance,521.74150436,714.70596622,-27.0,53.0,27542.36
+50080,Simple surgical treatment of kidney stone with imaging guidance,521.74150436,636.208,-18.0,53.0,27542.36
+50325,Preparation of living donor kidney for transplantation,72.18144927533334,70.041401306,3.1,52.0,3715.4
+77078,Ct scan for measuring calcium and other minerals in bone,82.62,,,51.0,4213.62
+54300,Repair of curved penis,267.04078431,,,51.0,13619.08
+98968,"Telephone medical discussion provided by nonphysician professional, 21-30 minutes",27.578431373,,,51.0,1406.5
+G0181,Physician or allowed practitioner supervision of a patient receiving medicare-covered services provided by a participating home health agency (patient not present) requiring complex and multidisciplinary care modalities involving regular physician or allow,79.67875000000001,,,51.0,4028.73
+78740,Nuclear medicine study to assess urine flow,90.285,,,49.0,4627.679999999999
+90756,"Influenza vaccine, quadrivalent derived from cell cultures",31.00122449,,,49.0,1519.06
+57120,Suture closure of vagina and vaginal opening,367.6148383,,,49.0,17694.05
+50328,Preparation of donor kidney and arteries for transplantation,74.6497058825,66.205919325,12.8,48.0,3205.38
+84132,Blood potassium level,4.66,,,48.0,223.68
+84295,Blood sodium level,4.71,,,48.0,226.07999999999998
+82803,Blood gases measurement,25.55,,,48.0,1226.4
+38570,Biopsy and removal of lymph nodes of abdominal cavity using an endoscope,200.32490196,,,48.0,9648.32
+49323,Drainage of lymph fluid to abdominal cavity using an endoscope,132.2425,,,47.0,6213.08
+J7030,"Infusion, normal saline solution , 1000 cc",2.0072340426,,,47.0,94.34
+J1940,"Injection, furosemide, up to 20 mg",0.4496673387,,,47.0,21.27
+74160,Ct scan of abdomen with contrast,118.40731060666667,,,47.0,5492.45
+50436,Dilation of existing opening into urinary tract using imaging guidance,60.19625,,,46.0,2768.3
+76380,Limited or follow-up ct scan,39.905185185,,,46.0,1842.8
+76120,Imaging of organ,89.8660869565,,,46.0,4133.84
+52270,Incision of urethra in female using an endoscope,229.8584615385,165.44619403,38.9,45.0,9199.470000000001
+52270,Incision of urethra in female using an endoscope,229.8584615385,342.25186047,-32.8,45.0,9199.470000000001
+J2405,"Injection, ondansetron hydrochloride, per 1 mg",0.0756818182,,,44.0,3.33
+J2543,"Injection, piperacillin sodium/tazobactam sodium, 1 gram/0.125 grams (1.125 grams)",1.0285057471,,,43.5,44.74
+55175,Simple repair of scrotum,144.88341026,,,43.0,6094.96
+J2310,"Injection, naloxone hydrochloride, per 1 mg",7.3806976744,,,43.0,317.37
+49505,Repair of groin hernia (5 years or older),426.22051994333333,,,43.0,18138.190000000002
+14040,"Repair of wound of forehead, cheeks, chin, mouth, neck, underarms, genitals, hands, or feet by transferring skin, 10.0 sq cm or less",233.81177719,,,42.0,9697.119999999999
+73564,"X-ray of knee, 4 or more views",32.284047619,,,42.0,1355.93
+54240,Assessment of penile blood flow,87.97666666666667,,,40.0,3517.54
+84478,Triglycerides level,6.02825,,,40.0,241.13
+86141,"Measurement c-reactive protein for detection of infection or inflammation, high sensitivity",12.56,,,40.0,502.4
+50715,Release of scar tissue at ureter,632.8953832433334,715.53935617,-11.5,39.0,22933.510000000002
+99448,"Telephone or internet assessment with verbal and written report by consulting physician, 21-30 minutes",36.057435897,,,39.0,1406.24
+53450,Repair of urethra and urinary opening,152.84,357.34138047,-57.2,38.0,5807.92
+53450,Repair of urethra and urinary opening,152.84,315.50384615,-51.6,38.0,5807.92
+81050,Urine volume measurement,3.4212499999999997,,,38.0,128.52
+84436,"Thyroxine (thyroid chemical), total",6.73,,,38.0,255.74
+84479,Thyroid hormone evaluation,6.34,,,38.0,240.92000000000002
+82436,Urine chloride level,5.39541666665,,,38.0,202.68
+53451,Insertion of adjustable balloon continence device on both sides of urethra using imaging guidance,608.25972973,2711.30125,-77.6,37.0,22505.61
+83721,Ldl cholesterol level,10.525135135,,,37.0,389.43
+A9503,"Technetium tc-99m medronate, diagnostic, per study dose, up to 30 millicuries",32.4226923075,,,37.0,1398.58
+99282,Emergency department visit with straightforward medical decision making,36.01948717933333,,,37.0,1324.96
+94010,Test to measure expiratory airflow and volume,19.34,,,37.0,715.58
+95115,Professional service for single injection of allergen,7.77,,,37.0,287.49
+10005,"Fine needle aspiration biopsy using ultrasound guidance, first growth",57.14,,,37.0,2114.38
+83090,Homocysteine (amino acid) level,17.572777778,,,36.0,632.62
+76937,Ultrasonic guidance for blood vessel access,12.3216666665,,,36.0,453.32
+82271,Specimen analysis for blood,5.21,,,35.0,182.35
+99483,"Assessment of and care planning for patient with impaired thought processing, typically 60 minutes",235.96,,,35.0,8258.6
+50329,Preparation of donor kidney and ureter for transplantation,53.522857143,54.758155844,-2.3,35.0,1873.3
+52345,Repair of stricture of upper attachment of ureter to kidney using an endoscope,130.544172933,286.5817506,-54.4,33.0,4483.15
+50433,Placement of tube of kidney and urinary tube through new skin access using imaging guidance with review by radiologist,99.745,198.10392118,-49.7,33.0,3268.11
+50433,Placement of tube of kidney and urinary tube through new skin access using imaging guidance with review by radiologist,99.745,635.02976744,-84.3,33.0,3268.11
+A9562,"Technetium tc-99m mertiatide, diagnostic, per study dose, up to 15 millicuries",412.11625000000004,,,32.0,13187.720000000001
+J1030,"Injection, methylprednisolone acetate, 40 mg",5.8625,,,32.0,187.6
+44700,Suspension of small bowel using mesh or prosthesis or self tissue,449.10623016,,,32.0,14667.05
+G0396,"Alcohol and/or substance (other than tobacco) misuse structured assessment (e.g., audit, dast), and brief intervention 15 to 30 minutes",21.2090625,,,32.0,678.69
+87510,"Detection test for gardnerella vaginalis (bacteria), direct probe technique",19.65,,,32.0,628.8
+45560,Repair of bulging of rectum into vagina,296.310333335,,,32.0,9845.02
+87660,"Detection test by nucleic acid for trichomonas vaginalis (genital parasite), direct probe technique",19.65,,,32.0,628.8
+87480,"Detection test for candida species (yeast), direct probe technique",19.65,,,32.0,628.8
+53265,Removal or destruction of growth of urethra,168.795,201.51695761,-16.2,32.0,5401.44
+53265,Removal or destruction of growth of urethra,168.795,85.415542571,97.6,32.0,5401.44
+10011,"Fine needle aspiration biopsy of growth using mri guidance, first growth",366.94500000000005,,,31.0,11427.970000000001
+54110,Removal of thickened tissue of penis,410.735,,,31.0,13417.310000000001
+99236,"Initial hospital care with same-day admission and discharge with high level of medical decision making, per day, if using time, at least 85 minutes",169.41818182,,,31.0,5298.42
+93880,Ultrasound of both sides of head and neck blood flow,140.068886555,,,31.0,4380.95
+A9552,"Fluorodeoxyglucose f-18 fdg, diagnostic, per study dose, up to 45 millicuries",152.62666667,,,30.0,4578.8
+50385,Removal and replacement of stent in ureter through urethra with review by radiologist,988.055,178.37458515,453.9,30.0,29641.65
+50385,Removal and replacement of stent in ureter through urethra with review by radiologist,988.055,1013.8504167,-2.5,30.0,29641.65
+J0713,"Injection, ceftazidime, per 500 mg",1.369,,,30.0,41.07
+J7326,"Hyaluronan or derivative, gel-one, for intra-articular injection, per dose",406.25066667,,,30.0,12187.52
+54161,Removal of foreskin (older than 28 days),141.87409502,,,30.0,4240.19
+52500,Removal of bladder neck through urethra,361.30752381,465.30486436,-22.4,29.0,10490.35
+52500,Removal of bladder neck through urethra,361.30752381,374.23756757,-3.5,29.0,10490.35
+95117,Professional service for multiple injections of allergen,9.06,,,29.0,262.74
+72194,Ct scan of pelvis before and after contrast,81.99716577699999,,,28.0,2084.54
+27045,"Removal of growth of muscle of pelvis and hip, 5.0 cm or more",527.765,,,28.0,14777.42
+51045,Incision of bladder with insertion of tube or stent in ureter,118.269820511,251.79124528,-53.0,28.0,3482.5699999999997
+15860,Injection of agent into vein to assess blood flow of skin graft or flap,42.870000000000005,,,28.0,1200.36
+99091,"Collection and interpretation of physical parameters stored in computers and/or transmitted by the patient and/or caregiver to qualified health care professional, requiring 30 minutes or more, per 30 days",42.77,,,28.0,1197.56
+72170,"X-ray of pelvis, 1-2 views",21.96728022,,,27.0,592.81
+99235,"Initial hospital care with same-day admission and discharge with moderate level of medical decision making, per day, if using time, at least 70 minutes",118.52375,,,27.0,3184.26
+82105,"Alpha-fetoprotein (afp) level, serum",16.678518519,,,27.0,450.32
+49422,Removal of abdominal cavity tube,166.88468749999998,,,27.0,4481.76
+50389,Removal of kidney drainage tube using fluoroscopic guidance,23.8407142855,40.110865519,-40.6,26.0,624.98
+50389,Removal of kidney drainage tube using fluoroscopic guidance,23.8407142855,299.70223776,-92.0,26.0,624.98
+50561,Removal of foreign body or stone in kidney using an endoscope inserted through surgically created opening from kidney to skin,235.715535715,281.94620155,-16.4,26.0,6246.48
+58571,"Removal of uterus, tubes, and/or ovaries through abdomen using an endoscope, 250.0 g or less",408.80430303,,,26.0,10582.34
+J3370,"Injection, vancomycin hcl, 500 mg",1.9330769231,,,26.0,50.26
+73562,"X-ray of knee, 3 views",33.68,,,25.0,842.0
+55821,Partial removal of prostate (suprapubic),582.9412662350001,518.74362248,12.4,25.0,14360.02
+99234,"Initial hospital care with same-day admission and discharge with straightforward or low level of medical decision making, per day, if using time, at least 45 minutes",74.9842857145,,,25.0,1866.97
+J2371,"Injection, phenylephrine hydrochloride, 20 micrograms",0.01,,,25.0,0.25
+53410,Reconstruction of urethra in male,793.459675325,705.38150063,12.5,25.0,19791.93
+53410,Reconstruction of urethra in male,793.459675325,672.66,18.0,25.0,19791.93
+G0316,Prolonged hospital inpatient or observation care evaluation and management service(s) beyond the total time for the primary service (when the primary service has been selected using time on the date of the primary service); each additional 15 minutes by th,23.3824,,,25.0,584.56
+64595,Revision of peripheral or gastric neurostimulator generator,51.3977272725,,,24.0,1233.9899999999998
+52283,Steroid injection into urethra stricture using an endoscope,109.40388111749999,159.60930667,-31.5,24.0,2695.05
+52283,Steroid injection into urethra stricture using an endoscope,109.40388111749999,230.31771429,-52.5,24.0,2695.05
+57287,Removal or revision of incontinence sling,589.40153846,560.79162749,5.1,24.0,14148.04
+57287,Removal or revision of incontinence sling,589.40153846,510.25460317,15.5,24.0,14148.04
+97161,"Evaluation for physical therapy, typically 20 minutes",73.609166667,,,24.0,1766.62
+J0694,"Injection, cefoxitin sodium, 1 gm",3.94625,,,24.0,94.71
+38780,Removal of lymph nodes of abdominal cavity,437.3043007,,,24.0,10407.71
+73580,Review by radiologist of knee joint image,98.973913043,,,23.0,2276.4
+88307,"Pathology examination of tissue using a microscope, moderately high complexity",157.64,,,23.0,3625.72
+0499T,Cysto f/urtl strix/stenosis,106.7163636365,131.3261039,-18.7,23.0,2466.9700000000003
+27369,Injection of contrast for imaging of knee joint,118.07043478,,,23.0,2715.62
+50546,Removal of kidney and partial removal of ureter using an endoscope,970.42590909,763.9795284,27.0,23.0,22304.949999999997
+50548,Removal of kidney and ureter using an endoscope,1172.09261365,838.85783937,39.7,23.0,27030.16
+54220,Injection of drug into erectile tissue at sides and back of penis,170.21791666500002,,,23.0,3891.6
+15777,Implantation of biologic implant to soft tissue,179.96,,,21.0,3779.16
+95012,Test to measure the level of nitric oxide gas,17.35,,,21.0,364.35
+82985,Glycated protein level,16.42,,,21.0,344.82
+87811,Detection test by immunoassay with direct visual observation for severe acute respiratory syndrome coronavirus 2 (covid-19),40.55,,,20.0,811.0
+54250,Assessment of nighttime erection,92.23,,,20.0,1844.6
+G9487,"Remote in-home visit for the evaluation and management of an established patient for use only in a medicare-approved cms innovation center demonstration project, which requires at least 2 of the following 3 key components: an expanded problem focused histo",27.021052632,,,19.0,513.4
+77290,"Obtaining data needed to develop the optimal radiation treatment, 3 or more treatment areas or any number of treatment areas where special treatment is involved",72.12,,,19.0,1370.28
+58541,"Partial removal of uterus with retention of cervix using an endoscope, 250.0 g or less",285.2,,,18.0,5133.6
+50387,Removal and replacement of stent in kidney and ureter using fluoroscopic guidance with review by radiologist,36.342222222,69.764047337,-47.9,18.0,654.16
+50387,Removal and replacement of stent in kidney and ureter using fluoroscopic guidance with review by radiologist,36.342222222,282.33538462,-87.1,18.0,654.16
+00731,"Anesthesia for other procedure on esophagus, stomach, or upper small bowel using an endoscope",63.086666667,,,18.0,1135.56
+10012,"Fine needle aspiration biopsy of growth using mri guidance, each additional growth",198.45,,,17.0,3373.65
+45910,Dilation of narrowing of rectum under anesthesia,153.84705882,,,17.0,2615.4
+53500,Release of scar tissue of urethra using an endoscope,511.49058824,362.30145497,41.2,17.0,8695.34
+72110,"X-ray of lower and sacral spine, minimum of 4 views",23.38,,,17.0,397.46
+53449,Repair of inflatable urethra or bladder neck sphincter,491.69352941,522.68606897,-5.9,17.0,8358.79
+86140,Measurement c-reactive protein for detection of infection or inflammation,5.08,,,16.0,81.28
+78709,"Nuclear medicine studies of kidney, blood flow, and function",268.24,51.116211031,424.8,16.0,4291.84
+78709,"Nuclear medicine studies of kidney, blood flow, and function",268.24,239.40012719,12.0,16.0,4291.84
+78708,"Nuclear medicine study of kidney, blood, flow, and function with drug administration",89.28,44.08165178,102.5,16.0,1428.48
+78708,"Nuclear medicine study of kidney, blood, flow, and function with drug administration",89.28,117.86280702,-24.3,16.0,1428.48
+78445,Nuclear medicine study of non-cardiac blood flow,18.48,,,16.0,295.68
+64913,"Repair of nerve using nerve graft, each additional strand",143.85,,,16.0,2301.6
+49329,Other procedure on abdomen using an endoscope,298.115625,,,16.0,4769.85
+J9150,"Injection, daunorubicin, 10 mg",31.784375,,,16.0,508.55
+64912,"Repair of nerve using nerve graft, first strand",385.49,,,16.0,6167.84
+52300,Removal or destruction of abnormal pouches of ureter at bladder using an endoscope,216.329375,206.34979424,4.8,16.0,3461.27
+53665,Dilation of urethra in female under general or spinal anesthesia,14.3,144.419,-90.1,15.0,214.5
+53665,Dilation of urethra in female under general or spinal anesthesia,14.3,28.371666667,-49.6,15.0,214.5
+99449,"Telephone or internet assessment with verbal and written report by consulting physician, more than 30 minutes",51.182,,,15.0,767.73
+51596,Removal of bladder and lymph nodes on both sides of pelvis with transplantation of ureters to small and/or large bowel with creation of urinary opening,1970.6,1681.3039759,17.2,15.0,29559.0
+95925,Placement of skin electrodes and measurement of stimulated sites in arms,166.68,,,15.0,2500.2
+38562,Partial removal of pelvic and aortic lymph nodes,351.57,,,15.0,5273.55
+95806,"Sleep study including heart rate, breathing, airflow, and effort",70.888,,,15.0,1063.32
+50240,Partial removal of kidney,1073.6226667,830.72943372,29.2,15.0,16104.34
+97535,"Training for self-care or home management, each 15 minutes",25.34,,,14.0,354.76
+53620,Initial dilation of urethra in male using filiform dilator,61.26,67.08366443,-8.7,14.0,857.64
+53620,Initial dilation of urethra in male using filiform dilator,61.26,129.69554313,-52.8,14.0,857.64
+96366,"Infusion into a vein for therapy, prevention, or diagnosis, each additional hour",16.02,,,14.0,224.28
+52334,Insertion of guide wire through kidney into ureter using an endoscope,61.337857143,171.57098361,-64.2,14.0,858.73
+55865,Exposure of prostate gland for radiation therapy with removal of surrounding lymph nodes on both sides of pelvis,1055.6878571,1082.6,-2.5,14.0,14779.63
+50575,Dilation and ureter stent insertion using an endoscope,656.86285714,539.29509804,21.8,14.0,9196.08
+64911,Repair of nerve using vein graft,437.84,,,13.0,5691.92
+G0182,"Physician supervision of a patient under a medicare-approved hospice (patient not present) requiring complex and multidisciplinary care modalities involving regular physician development and/or revision of care plans, review of subsequent reports of patien",25.590769231,,,13.0,332.68
+50551,Exam of kidney using an endoscope inserted through surgically created opening from kidney to skin,215.36307692,204.76638655,5.2,13.0,2799.72
+77790,"Supervision, handling, and loading of radiation source",12.98,,,13.0,168.74
+44120,Partial removal of small bowel with reconnection,494.02076923,,,13.0,6422.27
+36561,Insertion of central venous tube with port (5 years or older),266.98,,,13.0,3470.74
+77470,Special radiation treatment,84.11,,,13.0,1093.43
+77295,3d radiation therapy planning,365.64,,,13.0,4753.32
+77001,Fluoroscopic guidance for insertion or removal of central vein access device,14.39,,,13.0,187.07
+93457,"Insertion of tube in right heart chambers, coronary artery, and bypass graft for diagnosis with review by radiologist",3.92,,,13.0,50.96
+51860,"Suture of simple wound, injury, or rupture of bladder",313.71846154,405.59907298,-22.7,13.0,4078.34
+52290,Incision of ureter using an endoscope,120.46461538,155.09017857,-22.3,13.0,1566.04
+52290,Incision of ureter using an endoscope,120.46461538,137.41666667,-12.3,13.0,1566.04
+57220,Plastic repair of muscles at urinary opening through vagina,143.25230769,,,13.0,1862.28
+14041,"Repair of wound of forehead, cheeks, chin, mouth, neck, underarms, genitals, hands, or feet by transferring skin, 10.1-30.0 sq cm",428.92,,,12.0,5147.04
+93925,Ultrasound of leg arteries or artery grafts,160.38333333,,,12.0,1924.6
+50945,Removal of stone from ureter using an endoscope,863.4775,651.59918919,32.5,12.0,10361.73
+57280,Attachment of vagina to rear pelvic bone,708.07083333,,,12.0,8496.85
+99447,"Telephone or internet assessment with verbal and written report by consulting physician, 11-20 minutes",25.35,,,12.0,304.2
+50949,Other procedure on ureter using an endoscope,886.96333333,868.6166985,2.1,12.0,10643.56
+50690,Injection of bladder and ureter for imaging,92.048333333,47.971078947,91.9,12.0,1104.58
+50690,Injection of bladder and ureter for imaging,92.048333333,84.845837838,8.5,12.0,1104.58
+55845,Removal of prostate gland and surrounding lymph nodes on both sides of pelvis through abdominal incision,571.33,793.78348653,-28.0,12.0,6855.96
+44005,Release of intestinal scar tissue,817.13833333,,,12.0,9805.66
+97164,"Re-evaluation for physical therapy, typically 20 minutes",44.299166667,,,12.0,531.59
+G0500,"Moderate sedation services provided by the same physician or other qualified health care professional performing a gastrointestinal endoscopic service that sedation supports, requiring the presence of an independent trained observer to assist in the monito",4.12,,,12.0,49.44
+55842,Removal of prostate gland and lymph node biopsy through abdominal incision,993.0,775.774,28.0,12.0,11916.0
+14301,"Repair of wound by transferring skin, 30.1-60.0 sq cm",651.27666667,,,12.0,7815.32
+55110,Search of scrotum,157.52,,,12.0,1890.24
+54111,"Removal of abnormally thickened tissue in penis with graft, 5.0 cm or less",368.2275,,,12.0,4418.73
+87109,Mycoplasma culture,15.08,,,12.0,180.96
+G9488,"Remote in-home visit for the evaluation and management of an established patient for use only in a medicare-approved cms innovation center demonstration project, which requires at least 2 of the following 3 key components: a detailed history; a detailed ex",42.221666667,,,12.0,506.66
+10035,"Placement of soft tissue locating device using x-ray, first growth",258.10181818,,,11.0,2839.12
+87624,"Detection test by nucleic acid for human papillomavirus (hpv), high-risk types",34.39,,,11.0,378.29
+15574,"Creation of flap graft to forehead, cheeks, chin, mouth, neck, underarms, genitals, hands, or feet",296.53636364,,,11.0,3261.9
+50541,Destruction of cyst of kidney using an endoscope,382.99727273,455.74616872,-16.0,11.0,4212.97
+00811,Anesthesia for other procedure on large bowel using an endoscope,61.286363636,,,11.0,674.15
+87880,"Detection test by immunoassay with direct visual observation for streptococcus, group a (strep)",16.2,,,11.0,178.2
+33508,Harvest of vein using an endoscope,1.97,,,11.0,21.67
+73502,"X-ray of hip, 2-3 views",21.96,,,11.0,241.56
+J1040,"Injection, methylprednisolone acetate, 80 mg",9.94,,,11.0,109.34
+70200,"X-ray of eye socket, minimum of 4 views",23.663636364,,,11.0,260.3
+50694,Placement of stent of ureter through new skin access using imaging guidance with review by radiologist,114.96818182,210.35332808,-45.3,11.0,1264.65
+53415,Reconstruction or repair of urethra,1004.24,769.91551429,30.4,11.0,11046.64
+50010,Exploration of kidney,330.94272727,358.75892308,-7.8,11.0,3640.37
+95938,Placement of skin electrodes and measurement of stimulated sites on arms and legs,257.66,,,11.0,2834.26
+57270,Repair of protrusion of intestine into rectum or vagina through abdomen,292.96,,,11.0,3222.56
+57110,Removal of vaginal wall,767.65,,,11.0,8444.15
+57106,Partial removal of vaginal wall,240.3,,,11.0,2643.3
+45150,Incision of stricture of rectum,277.30090909,,,11.0,3050.31
+49650,Repair of groin hernia using an endoscope,180.26090909,,,11.0,1982.87
+55600,Incision or puncture of fluid-producing gland for sperm movement,388.27909091,,,11.0,4271.07
+51590,Removal of bladder with transplantation of ureters to small or large bowel with creation of urinary opening,1445.8018182,1203.2919141,20.2,11.0,15903.82
+J0295,"Injection, ampicillin sodium/sulbactam sodium, per 1.5 gm",1.6290909091,,,11.0,17.92
