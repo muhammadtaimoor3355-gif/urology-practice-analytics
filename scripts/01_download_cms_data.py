@@ -31,7 +31,7 @@ import requests
 import pandas as pd
 from datetime import datetime
 
-# ── Project root ──────────────────────────────────────────
+# ── Project root ──────────────────────────────────
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 sys.path.insert(0, os.path.join(PROJECT_ROOT, 'scripts'))
 
@@ -40,7 +40,7 @@ try:
 except ImportError:
     def append_audit_log(*a, **k): pass
 
-# ── Config ────────────────────────────────────────────────
+# ── Config ───────────────────────────────────────
 CMS_API_BASE     = "https://data.cms.gov/data-api/v1/dataset"
 CMS_DATASET_GUID = "0e9f2f2b-7bf9-451a-912c-e02e654dd725"
 PAGE_SIZE        = 5000
@@ -52,7 +52,7 @@ OUTPUT_META = os.path.join(OUTPUT_DIR, 'cms_api_metadata.json')
 
 BASE_URL = f"{CMS_API_BASE}/{CMS_DATASET_GUID}/data"
 
-# ── Helpers ───────────────────────────────────────────────
+# ── Helpers ──────────────────────────────────────
 
 def find_specialty_column(df):
     """Return the name of whatever column holds the provider specialty."""
@@ -144,7 +144,7 @@ def probe_specialty_value(specialty_col):
     return "Urology"
 
 
-# ── Main ──────────────────────────────────────────────────
+# ── Main ─────────────────────────────────────────
 
 def main():
     print("=" * 60)
